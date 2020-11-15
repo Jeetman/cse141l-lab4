@@ -15,9 +15,8 @@ module RegFile (Clk,WriteEn,RaddrA,RaddrB,Waddr,DataIn,DataOutA,DataOutB);
 	parameter W=8, D=4;  // W = data path width (Do not change); D = pointer width (You may change)
 	input                Clk,
 								WriteEn;
-	input        [D-1:0] RaddrA,				  // address pointers
-								RaddrB,
-								Waddr;
+	input        [D-1:0] Waddr;
+	input			 			opsWrite;           //top or bottom bits?
 	input        [W-1:0] DataIn;
 	output reg   [W-1:0] DataOutA;			  
 	output reg   [W-1:0] DataOutB;				
@@ -33,6 +32,9 @@ reg [W-1:0] Registers[(2**D)-1:0];	  // or just registers[16-1:0] if we know D=4
 
 always@*
 begin
+ //read from OPS register 
+ RaddrA = Registers[13] //somehow get top bits
+ RaddrB = Registers[13] //somehow get low bits
  DataOutA = Registers[RaddrA];	  
  DataOutB = Registers[RaddrB];    
 end
@@ -41,5 +43,10 @@ end
 always @ (posedge Clk)
   if (WriteEn)	                             // works just like data_memory writes
     Registers[Waddr] <= DataIn;
+	 //write to ops register
+	 if(opsWrite)
+		//write to top 4 bits
+	 else 
+		//write to bottom 4 bits
 
 endmodule

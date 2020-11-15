@@ -44,7 +44,7 @@ module CPU(Reset, Start, Clk,Ack);
 	.Reset       (Reset   ) , 
 	.Start       (Start   ) ,  
 	.Clk         (Clk     ) ,  
-	.BranchAbs   (Jump    ) ,  // jump enable
+	//.BranchAbs   (Jump    ) ,  // jump enable
 	.BranchRelEn (BranchEn) ,  // branch enable
 	.ALU_flag	 (Zero    ) ,
    .Target      (PCTarg  ) ,
@@ -65,23 +65,24 @@ module CPU(Reset, Start, Clk,Ack);
 	.InstOut       (Instruction)
 	);
 	
-	assign LoadInst = Instruction[8:6]==3'b110;  // calls out load specially
+	assign LoadInst = Instruction[8:5]==4'b1000;  // calls out load specially
 	
 	always@*							  
 	begin
-		Ack = Instruction[0];  // Update this to the condition you want to set done to true
+		if Instruction[8:5] == 4b'1111
+			Ack = 1;  // Update this to the condition you want to set done to true
+		else 
+			Ack = 0;
 	end
 	
 	
 	//Reg file
 	// Modify D = *Number of bits you use for each register*
    // Width of register is 8 bits, do not modify
-	RegFile #(.W(8),.D(3)) RF1 (
+	RegFile #(.W(8),.D(4)) RF1 (
 		.Clk    		(Clk)		  ,
 		.WriteEn   (RegWrEn)    , 
-		.RaddrA    (Instruction[5:3]),         
-		.RaddrB    (Instruction[2:0]), 
-		.Waddr     (Instruction[5:3]), 	       
+		.Waddr     (Instruction[7:3]), 	       
 		.DataIn    (RegWriteValue) , 
 		.DataOutA  (ReadA        ) , 
 		.DataOutB  (ReadB		 )
@@ -91,8 +92,8 @@ module CPU(Reset, Start, Clk,Ack);
 	
 	assign InA = ReadA;						                       // connect RF out to ALU in
 	assign InB = ReadB;
-	assign Instr_opcode = Instruction[8:6];
-	assign MemWrite = (Instruction == 9'h111);                 // mem_store command
+	assign Instr_opcode = Instruction[8:5];
+	assign MemWrite = (Instruction[8:5] == 4b'1001);                 // mem_store command
 	assign RegWriteValue = LoadInst? MemReadValue : ALU_out;  // 2:1 switch into reg_file
 	
 
@@ -100,7 +101,7 @@ module CPU(Reset, Start, Clk,Ack);
 	ALU ALU1(
 	  .InputA(InA),      	  
 	  .InputB(InB),
-	  .OP(Instruction[8:6]),				  
+	  .OP(Instruction[8:5]),				  
 	  .Out(ALU_out),		  			
 	  .Zero()
 		 );
@@ -108,7 +109,7 @@ module CPU(Reset, Start, Clk,Ack);
 	 
 	 // Data Memory
 	 	DataMem DM1(
-		.DataAddress  (ReadA)    , 
+		.DataAddress  (ALU_out)    , 
 		.WriteEn      (MemWrite), 
 		.DataIn       (MemWriteValue), 
 		.DataOut      (MemReadValue)  , 

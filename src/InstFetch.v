@@ -14,22 +14,22 @@ module InstFetch(Reset,Start,Clk,BranchAbs,BranchRelEn,ALU_flag,Target,ProgCtr);
   input              Reset,			   // reset, init, etc. -- force PC to 0 
                      Start,			   // begin next program in series
                      Clk,			      // PC can change on pos. edges only
-                     BranchAbs,	       // jump unconditionally to Target value	   
+                     //BranchAbs,	      // jump unconditionally to Target value	   
                      BranchRelEn,	   // jump conditionally to Target + PC
                      ALU_flag;		   // flag from ALU, e.g. Zero, Carry, Overflow, Negative (from ARM)
-  input       [10:0] Target;		      // jump ... "how high?"
-  output reg[10:0] ProgCtr ;            // the program counter register itself
+  input       [9:0] Target;		      // jump ... "how high?"
+  output reg[9:0] ProgCtr ;            // the program counter register itself
   
   
   //// program counter can clear to 0, increment, or jump
-	always @(posedge Clk)
+	always
 	begin 
 		if(Reset)
 		  ProgCtr <= 0;				        // for first program; want different value for 2nd or 3rd
 		else if(Start)						     // hold while start asserted; commence when released
 		  ProgCtr <= ProgCtr;
-		else if(BranchAbs)	              // unconditional absolute jump
-		  ProgCtr <= Target;
+		//else if(BranchAbs)	              // unconditional absolute jump
+		  //ProgCtr <= Target;
 		else if(BranchRelEn && ALU_flag)   // conditional relative jump
 		  ProgCtr <= Target + ProgCtr;
 		else
