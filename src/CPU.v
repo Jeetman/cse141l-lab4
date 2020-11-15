@@ -35,7 +35,6 @@ module CPU(Reset, Start, Clk,Ack);
 				   RegWrEn,	      // reg_file write enable
 					opsWrite,
 				   Zero,		      // ALU output = 0 flag
-					Overflow,
 					Jump,	         // to program counter: jump 
 					BranchEn;	   // to program counter: branch enable
 	reg  [15:0] CycleCt;	      // standalone; NOT PC!
@@ -49,13 +48,14 @@ module CPU(Reset, Start, Clk,Ack);
 	//.BranchAbs   (Jump    ) ,  // jump enable
 	.BranchRelEn (BranchEn) ,  // branch enable
 	.ALU_flag	 (Zero    ) ,
-   .Target      (PCTarg  ) ,
+   .Target      (ReadB  ) ,
 	.ProgCtr     (PgmCtr  )	   // program count = index to instruction memory
 	);	
 
 	// Control decoder
   Ctrl Ctrl1 (
 	.Instruction  (Instruction),    // from instr_ROM
+	.jmpReg		  (ReadA),
 	.Jump         (Jump),		     // to PC
 	.BranchEn     (BranchEn)		  // to PC
   );
@@ -85,6 +85,8 @@ module CPU(Reset, Start, Clk,Ack);
 		.Clk    		(Clk)		  ,
 		.WriteEn   (RegWrEn)    ,
 		.opsWrite  (opsWrite)	,
+		.jmp		  (Jump)			,
+		.jmpReg    (Instruction[4:1]),
 		.Waddr     (Instruction[7:3]), 	       
 		.DataIn    (RegWriteValue) , 
 		.DataOutA  (ReadA        ) , 
@@ -107,7 +109,6 @@ module CPU(Reset, Start, Clk,Ack);
 	  .OP(Instruction[8:5]),				  
 	  .Out(ALU_out),		  			
 	  .Zero(),
-	  .Overflow()
 		 );
 	 
 	 

@@ -10,10 +10,11 @@
 // outputs to program_counter (fetch unit)
 // There may be more outputs going to other modules
 
-module Ctrl (Instruction, Jump, BranchEn);
+module Ctrl (Instruction, jmpReg, Jump, BranchEn);
 
 
   input[ 8:0] Instruction;	   // machine code
+  input[ 7:0] jmpReg;         // value of reg passed to jmp cmd
   output reg Jump,
               BranchEn;
 
@@ -23,9 +24,9 @@ module Ctrl (Instruction, Jump, BranchEn);
 	  if(Instruction[8:5] ==  4'b1100) // jump = 1100
 		 begin
 			Jump = 1;
-			BranchEn = 1;
+			if( jmpReg == 1 )
+				BranchEn = 1;
 		 end
-
 	  else
 		 begin
 			Jump = 0;
