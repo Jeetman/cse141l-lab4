@@ -33,7 +33,9 @@ module CPU(Reset, Start, Clk,Ack);
 					MemReadValue;  // data out from data_memory
 	wire        MemWrite,	   // data_memory write enable
 				   RegWrEn,	      // reg_file write enable
+					opsWrite,
 				   Zero,		      // ALU output = 0 flag
+					Overflow,
 					Jump,	         // to program counter: jump 
 					BranchEn;	   // to program counter: branch enable
 	reg  [15:0] CycleCt;	      // standalone; NOT PC!
@@ -69,7 +71,7 @@ module CPU(Reset, Start, Clk,Ack);
 	
 	always@*							  
 	begin
-		if Instruction[8:5] == 4b'1111
+		if (Instruction[8:5] == 4'b1111)
 			Ack = 1;  // Update this to the condition you want to set done to true
 		else 
 			Ack = 0;
@@ -81,7 +83,8 @@ module CPU(Reset, Start, Clk,Ack);
    // Width of register is 8 bits, do not modify
 	RegFile #(.W(8),.D(4)) RF1 (
 		.Clk    		(Clk)		  ,
-		.WriteEn   (RegWrEn)    , 
+		.WriteEn   (RegWrEn)    ,
+		.opsWrite  (opsWrite)	,
 		.Waddr     (Instruction[7:3]), 	       
 		.DataIn    (RegWriteValue) , 
 		.DataOutA  (ReadA        ) , 
@@ -93,7 +96,7 @@ module CPU(Reset, Start, Clk,Ack);
 	assign InA = ReadA;						                       // connect RF out to ALU in
 	assign InB = ReadB;
 	assign Instr_opcode = Instruction[8:5];
-	assign MemWrite = (Instruction[8:5] == 4b'1001);                 // mem_store command
+	assign MemWrite = (Instruction[8:5] == 4'b1001);                 // mem_store command
 	assign RegWriteValue = LoadInst? MemReadValue : ALU_out;  // 2:1 switch into reg_file
 	
 
@@ -103,7 +106,8 @@ module CPU(Reset, Start, Clk,Ack);
 	  .InputB(InB),
 	  .OP(Instruction[8:5]),				  
 	  .Out(ALU_out),		  			
-	  .Zero()
+	  .Zero(),
+	  .Overflow()
 		 );
 	 
 	 

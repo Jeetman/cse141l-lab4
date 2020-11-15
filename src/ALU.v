@@ -8,7 +8,7 @@
 
 
 	 
-module ALU(InputA,InputB,OP,Out,Zero);
+module ALU(InputA,InputB,OP,Out,Zero,Overflow);
 
 	input [ 7:0] InputA;
 	input [ 7:0] InputB;
@@ -21,7 +21,7 @@ module ALU(InputA,InputB,OP,Out,Zero);
 	begin 
 		Out = 0;
 		case (OP)
-		3'b0000: {Overflow, Out} = {1b'0,InputA} + {1b'0,InputB}; // ADD
+		3'b0000: {Overflow, Out} = {1'b0,InputA} + {1'b0,InputB}; // ADD
 		3'b0111: Out = InputA + InputB; // MOV
 		//Add reset of instructions mapping TODO
 		3'b0110: Out = InputA - InputB; // SLT

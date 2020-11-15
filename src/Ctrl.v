@@ -20,13 +20,17 @@ module Ctrl (Instruction, Jump, BranchEn);
 	// jump on right shift that generates a zero
 	always@*
 	begin
-	  if(Instruction[?] ==  4'b1100) // assuming 111 is your jump instruction
-		 Jump = 1;
-		 BranchEn = 1;
+	  if(Instruction[8:5] ==  4'b1100) // jump = 1100
+		 begin
+			Jump = 1;
+			BranchEn = 1;
+		 end
 
 	  else
-		 Jump = 0;
-		 BranchEn = 0;
+		 begin
+			Jump = 0;
+			BranchEn = 0;
+		 end
 	  /*
 	  if(Instruction[2:0] ==  3'b110 /*AND some other conditions are true) // assuming 110 is your branch instruction
 		 BranchEn = 1;

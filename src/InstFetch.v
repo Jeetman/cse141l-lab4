@@ -9,7 +9,7 @@
 
 
 	 
-module InstFetch(Reset,Start,Clk,BranchAbs,BranchRelEn,ALU_flag,Target,ProgCtr);
+module InstFetch(Reset,Start,Clk,BranchRelEn,ALU_flag,Target,ProgCtr);
 
   input              Reset,			   // reset, init, etc. -- force PC to 0 
                      Start,			   // begin next program in series
