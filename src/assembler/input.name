@@ -1,0 +1,11 @@
+ldh $r14
+mov 1
+ldh $r0
+mov 0
+ldh $r1
+mov 15
+ldh $r3
+slt $r5
+jmp $r5
+add $r2
+hlt
