@@ -1,11 +1,11 @@
-ldh $r14
+ldh 14
 mov 1
-ldh $r0
+ldh 0
 mov 0
-ldh $r1
+ldh 1
 mov 15
-ldh $r3
-slt $r5
-jmp $r5
-add $r2
+ldh 3
+slt 5
+jmp 5
+add 2
 hlt
