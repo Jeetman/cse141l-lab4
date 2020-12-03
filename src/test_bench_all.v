@@ -69,7 +69,7 @@ initial begin
   dut.DM1.Core[8] = divisor1[15:8];
   dut.DM1.Core[9] = divisor1[ 7:0];
   if(divisor1) div1;										// regal value of nonzero vector = 1; 
-  else result1 = '1;    // 1/0 = all 1's (maximum value; "saturating reg")
+  else result1 = {16{1'b1}};    // 1/0 = all 1's (maximum value; "saturating reg")
   #20; start = 0;
   #20;
   wait(done);
@@ -94,7 +94,7 @@ initial begin
   dut.DM1.Core[1] = div_in2[ 7:0];
   dut.DM1.Core[2] = divisor2;
   if(divisor2) div2; 							             // divisor2 is "true" only if nonzero
-  else result2 = '1; // same as program 1: limit to max.
+  else result2 = {24{1'b1}}; // same as program 1: limit to max.
   #20; start = 0;
   #20; wait(done);
 // *** change names of memory or its guts as needed ***

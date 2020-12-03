@@ -64,7 +64,7 @@ initial begin
   dut.DM1.Core[8] = divisor1[15:8];
   dut.DM1.Core[9] = divisor1[ 7:0];
   if(divisor1) div1;										// regal value of nonzero vector = 1; 
-  else result1 = '1;    // 1/0 = all 1's (maximum value; "saturating reg")
+  else result1 = {16{1'b1}};    // 1/0 = all 1's (maximum value; "saturating reg")
   #20; start = 0;
   #20;
   wait(done);
