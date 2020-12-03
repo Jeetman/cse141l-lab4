@@ -22,18 +22,18 @@ def assembly_to_machine(line):
     if inst_name in lut.IMM:
 
         # Check that no registers are specified. Assumes base 10
-        if "$" not in elements[1]:
-            immval = int(elements[1])
-            tail = format(immval, '05b')
-            return opcode + tail
+        #if "$" not in elements[1]:
+        immval = int(elements[1])
+        tail = format(immval, '05b')
+        return opcode + tail
     # register instruction: uses 4 bits of register + 0 bit on tail
     else:
 
         # Check that no immediate value is specified. Assumes base 10
-        if "$r" in elements[1]:
-            regval = int(elements[1][2:])
-            tail = format(regval, '04b')
-            return opcode + tail + '0'
+        #if "$r" in elements[1]:
+        regval = int(elements[1])
+        tail = format(regval, '04b')
+        return opcode + tail + '0'
 
 
 def main():
