@@ -8,6 +8,7 @@ def assembly_to_machine(line):
 
     # Grab the first 3 chars of the line, and use LUT to generate opcode
     inst_name= line[:3]
+    # TODO: remove space here
     opcode = lut.LUT[inst_name] 
 
     # Store space-delimited elements of the instruction
@@ -50,6 +51,8 @@ def main():
     with open(results.file_in, 'r') as fi, open(results.file_out, 'w') as fo:
         lines = [line.rstrip() for line in fi]
 
+        # TODO: determine whether or not to include newlines (currently we
+        # don't)
         for inst in lines:
             fo.write(assembly_to_machine(inst))
             fo.write('\n')

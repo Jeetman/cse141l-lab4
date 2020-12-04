@@ -1,77 +1,67 @@
-ldh 0          # r0 = 0. counts to 8 
+ldh 0
 mov 0
-ldh 1          # r1 = 0. counts to 3
+ldh 1
 mov 0
-ldh 4          # r4 = 0. keeps shifted dividend
+ldh 4
 mov 0
-ldh 5          # r5 = 0. keeps current quotient
+ldh 5
 mov 0
-ldh 7          # r7 = 8. count down from 8
+ldh 7
 mov 8
-ldh 9          # r9 = 0b10
+ldh 9
 mov 2
-ldl 2          # r2 = M[$r9]. r2 keeps divisor
+ldl 2
 ldb 0
-ldl 6          # r6 = 2s comp of divisor
-ldb 0           
-ldh 8          # Store 0b1111_1111 into r8
+ldl 6
+ldb 0
+ldh 16
 mov 31
-ldh 11
-mov 3          # shift 0b1_1111 left by 3
-ldh 8
-ldl 11
-lsl 8
-ldh 11
+ldh 9
+mov 3
+ldh 10
 mov 7
-ldl 8
-add 8           # add 7 to 0b1111_1000
-ldh 8           # 8 should now have the value 0b1111_1111
-ldl 6
-add 6
+ldh 16
+ldl 9
+lsl 16
+ldh 16
+ldl 10
+add 16
+ldh 6
+ldl 16
+xor 6
 ldh 8
 mov 1
 ldl 6
 add 6
-ldh 10          # (QL1) r10 = 0b0.
+ldh 10
 mov 0
-ldl 3           # r3 = M[$r10]. MSB of dividend
-ldb 0
-ldh 15          # r15 = 1
-mov 0
-ldh 0           # Relative address to DIV_LOOP from next jmp (PC+0b0000_1100)
-ldl 12
-jmp 15          # Jumps to DIV_LOOP
-ldh 10          # (QL2) r10 =0b1
-mov 1
-ldl 3           # r3 = M[$r10]. LSB of dividend
-ldb 0
-ldh 15          # r15 = 1
-mov 0
-ldh 0           # Relative address to DIV_LOOP from next jmp (PC+0b0000_0011)
 ldl 3
-jmp 15          # Jumps to DIV_LOOP
-ldh 3           # (QL3) r3 = 0
+ldb 0
+ldh 15	
+mov 1
+ldh 0
+ldl 12
+jmp 15
+ldh 10
+mov 1
+ldl 3
+ldb 0
+ldh 15
+mov 1
+ldh 0
+ldl 3
+jmp 15
+ldh 3
 mov 0
-ldh 8           # (DIV_LOOP) shift shifted dividend left 1
+ldh 8
 mov 1
 ldh 4
 ldl 8
 lsl 4
-ldh 8           # r7 -= $r7
-mov 31          # mov 31, shift 3 left, add 7 to get 255
-ldh 11
-mov 3
-ldh 8
-ldl 11
-lsl 8
-ldh 11
-mov 7
-ldl 8
-add 8
-ldh 8          # 8 should now have the value 0b1111_1111
+ldh 16
 ldl 7
 add 7
-ldh 3          # get dividend's next bit -> r8
+ldh 3
 ldl 7
 lsr 8
 ldh 9
@@ -79,29 +69,29 @@ mov 1
 ldh 8
 ldl 9
 and 8
-ldh 8           # add next bit to shifted dividend $r4
+ldh 8
 ldl 4
 add 4
-ldh 8           # shift current quotient left 1, $r5
+ldh 8
 mov 1
 ldh 5
 ldl 8
 lsl 5
-ldh 4           # jump to END_DIV_LOOP if no subtract
+ldh 4
 ldl 2
 slt 15
-ldh 0           # Relative address to END_DIV_LOOP from next jmp
+ldh 0
 ldl 9
-jmp 15          # jumps to END_DIV_LOOP
-ldh 8           # (SUB) put 1 in current quotient
+jmp 15
+ldh 8
 mov 1
 ldh 5
 ldl 8
 add 5
-ldh 4            # r4 = shifted dividend - divisor
+ldh 4
 ldl 6
 add 4
-ldh 8            # (END_DIV_LOOP) r0 += 1, increment 8ctr, loop if necessary
+ldh 8
 mov 1
 ldh 8
 ldl 0
@@ -112,63 +102,63 @@ ldh 0
 ldl 8
 slt 15
 ldh 12
-ldl 3             # Relative address to DIV_LOOP from next jmp (PC+0b1100_0011)
-jmp 15            # jumps backwards to DIV_LOOP
-ldh 8             # calculate relative address to STORE_Q1
+ldl 14
+jmp 15
+ldh 8
 mov 1
 ldh 1
 ldl 8
 slt 15
 ldh 1
-ldl 1            # jumps to (PC+0b0001_0001)
-jmp 15           # jumps to (STORE_Q1)
-ldh 8            # calculate relative address to STORE_Q2
+ldl 1
+jmp 15
+ldh 8
 mov 2
 ldh 1
 ldl 8
 slt 15
 ldh 1
-ldl 8            # jumps to (PC+0b0001_1000)
-jmp 15           # jumps to (STORE_Q2)
-ldh 8            # calculate relative address to STORE_Q3
+ldl 8
+jmp 15
+ldh 8
 mov 3
 ldh 1
 ldl 8
 slt 15
 ldh 1
-ldl 15           # jumps to (PC+0b0001_1111)
-jmp 15           # jump to (STORE_Q3)
-ldh 8            # (STORE_Q1)
+ldl 15
+jmp 15
+ldh 8
 mov 4
 ldh 5
 ldl 8
 str 0
-ldh 8            # inc 3ctr
+ldh 8
 mov 1
 ldh 1
 ldl 8
 add 1
-ldh 15            # jump to get second quotient value, QL2
+ldh 15
 mov 1
+ldh 9
+ldl 11
+jmp 15
 ldh 8
-ldl 1             # Jumps to (PC+0b1000_0001) -111
-jmp 15            # jumps to (QL2)
-ldh 8             # (STORE_Q2) store second quotient val
 mov 5
 ldh 5
 ldl 8
 str 0
-ldh 8            # inc 3ctr
+ldh 8
 mov 1
 ldh 1
 ldl 8
 add 1
-ldh 15            # jump to get third quotient value, QL3
+ldh 15
 mov 1
 ldh 9
-ldl 8            # jumps to (PC+0b1000_1011)
-jmp 11           # loops back to QL3
-ldh 8            # (STORE_Q3) store third quotient value and end
+ldl 5
+jmp 15
+ldh 8
 mov 6
 ldh 5
 ldl 8
