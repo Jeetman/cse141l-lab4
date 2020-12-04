@@ -1,27 +1,31 @@
-ldh 0
+ldh 0     # r0: cnt
+mov 0     
+ldh 1     # r1: rem[15:8]
 mov 0
-ldh 1
-mov 0
-ldh 2
+ldh 2     # r2: rem[7:0]
 mov 1
-ldh 3
+ldh 3     # r3: ret[15:8]
 mov 0
-ldh 4
+ldh 4     # r4: ret[7:0]
 mov 0
-ldh 5
+ldh 5     # r5: bit[15:8], r6: bit[7:0]
 mov 1
-ldh 9
+ldh 9     # r9: tmp
 mov 7
 ldh 4
 ldl 9
 lsl 5
 ldh 6
 mov 0
-ldh 7
-mov 0
-ldh 8
+ldh 7     # r7: dvr[15:8]
+ldl 7
+mov 8
+ldb 0
+ldh 8     # r8: dvr[7:0]
+ldl 7
 mov 9
-ldh 10
+ldb 0
+ldh 10    # r10: tmp
 mov 1
 ldl 0
 add 10
@@ -141,7 +145,7 @@ ldl 9
 lsl 2
 ldh 9
 mov 1
-ldl 11
+ldl 11      # r11: tmp
 add 11
 mov 1
 ldh 0
@@ -174,4 +178,14 @@ mov 1
 ldh 8
 ldl 3
 jmp 9
+ldh 9       # store MSB of ret to M[10]
+mov 10
+ldh 3
+ldl 9
+str 0
+ldh 9
+mov 11
+ldh 4
+ldl 9
+str 0       # store MSB of ret to M[11]
 hlt

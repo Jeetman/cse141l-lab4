@@ -8,7 +8,6 @@ def assembly_to_machine(line):
 
     # Grab the first 3 chars of the line, and use LUT to generate opcode
     inst_name= line[:3]
-    # TODO: remove space here
     opcode = lut.LUT[inst_name] 
 
     # Store space-delimited elements of the instruction
