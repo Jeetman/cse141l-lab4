@@ -1,0 +1,14 @@
+ldh 1
+mov 1
+ldh 0
+ldl 4
+jmp 1
+hlt
+hlt
+hlt
+ldh 15
+mov 31
+ldh 8
+ldl 7
+jmp 1
+hlt

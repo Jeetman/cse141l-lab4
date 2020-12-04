@@ -11,17 +11,21 @@
 /* parameters are compile time directives 
        this can be an any-size reg_file: just override the params!
 */
-module RegFile (Clk,WriteEn,opsWrite,jmp,jmpReg,Waddr,DataIn,DataOutA,DataOutB);
+module RegFile (Clk,opsWrite,loadHigh,jmp,isMov,loadByte,OverFlow,jmpReg,Waddr,DataIn,DataOutA,DataOutB,MemWriteValue);
 	parameter W=8, D=4;  // W = data path width (Do not change); D = pointer width (You may change)
 	input                Clk,
-								WriteEn,
-	  			 			   opsWrite,           //1 means top bits and 0 means bottom bits
-								jmp;
+	  			 			   opsWrite,
+								loadHigh,
+								jmp,
+								isMov,
+								loadByte,
+								OverFlow;
 	input        [D-1:0] Waddr,
 								jmpReg;
 	input        [W-1:0] DataIn;
 	output reg   [W-1:0] DataOutA;			  
-	output reg   [W-1:0] DataOutB;				
+	output reg   [W-1:0] DataOutB;
+   output reg   [W-1:0] MemWriteValue;	
 
 // W bits wide [W-1:0] and 2**4 registers deep 	 
 reg [W-1:0] Registers[(2**D)-1:0];	  // or just registers[16-1:0] if we know D=4 always
@@ -44,18 +48,23 @@ begin
 	begin
 		DataOutA = Registers[Registers[13][7:4]];	  
 		DataOutB = Registers[Registers[13][3:0]];  
-   end		
+   end	
+ MemWriteValue = Registers[Registers[13][7:4]];	
 end
 
 // sequential (clocked) writes 
 always @ (posedge Clk)
-  if (WriteEn)
-	begin// works just like data_memory writes
-		 Registers[Waddr] <= DataIn;
-		 //write to ops register
-		 if(opsWrite)
-			Registers[13][7:4] <= DataIn[3:0];         //write to top 4 bits
-		 else 
-			Registers[13][3:0] <= DataIn[3:0];         //write to bottom 4 bits
-    end
+  if (isMov)
+	  Registers[Registers[13][7:4]] <= DataIn;
+  else if (loadByte)
+     Registers[Registers[13][3:0]] <= DataIn;
+  else if (opsWrite && loadHigh)
+	  Registers[13][7:4] <= DataIn[3:0];
+  else if (opsWrite && !loadHigh)
+	  Registers[13][3:0] <= DataIn[3:0];
+  else
+    begin
+	  Registers[Waddr] <= DataIn;
+	  Registers[12] <= OverFlow;
+	 end
 endmodule

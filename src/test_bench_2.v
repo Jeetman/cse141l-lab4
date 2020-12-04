@@ -55,7 +55,7 @@ end
 initial begin
 
 // preload operands and launch program 2
-  #10; start = 1;	
+  #10; start = 1;	init = 0;
 // The test below is calculating 3/255
 // insert dividend and divisor
   div_in2 = 3;	   	// *** try various values here ***

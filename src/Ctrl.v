@@ -10,13 +10,16 @@
 // outputs to program_counter (fetch unit)
 // There may be more outputs going to other modules
 
-module Ctrl (Instruction, jmpReg, Jump, BranchEn);
+module Ctrl (Instruction, jmpReg, MemReadValue, ALU_out, OverFlow, Jump, BranchEn,RegWriteValue);
 
 
   input[ 8:0] Instruction;	   // machine code
-  input[ 7:0] jmpReg;         // value of reg passed to jmp cmd
-  output reg Jump,
-              BranchEn;
+  input[ 7:0] jmpReg,         // reg to check if jmp or not
+				  MemReadValue,   //value read from memory
+				  ALU_out;        //value computed by alu
+  input OverFlow;
+  output reg Jump, BranchEn;
+  output reg[7:0] RegWriteValue;
 
 	// jump on right shift that generates a zero
 	always@*
@@ -32,14 +35,19 @@ module Ctrl (Instruction, jmpReg, Jump, BranchEn);
 			Jump = 0;
 			BranchEn = 0;
 		 end
-	  /*
-	  if(Instruction[2:0] ==  3'b110 /*AND some other conditions are true) // assuming 110 is your branch instruction
-		 BranchEn = 1;
-	  else
-		 BranchEn = 0;
-	   */ 
 	end
-
+   //determine what is written to register
+	always@*							  
+	begin
+		if (Instruction[8:5]==4'b1000)
+			RegWriteValue = MemReadValue;                                    //ldb
+		else if (Instruction[8:5] == 4'b1010 || Instruction[8:5] == 4'b1011) 
+			RegWriteValue = Instruction[4:1];                                //ldh or ldl
+		else if (Instruction[8:5] == 4'b0111)                           
+			RegWriteValue = Instruction[4:0];                                //mov
+		else
+			RegWriteValue = ALU_out;			                                //r-type
+	end	
 
 endmodule
 

@@ -9,16 +9,14 @@
 
 // TODO: delete BranchAbs, ALU_flag from this module, tb
 	 
-module InstFetch(Reset,Start,Clk,BranchRelEn,ALU_flag,Target,ProgCtr);
+module InstFetch(Reset,Start,Clk,BranchRelEn,Target,ProgCtr);
 
   input              Reset,			   // reset, init, etc. -- force PC to 0 
                      Start,			   // begin next program in series
                      Clk,			      // PC can change on pos. edges only
-                     //BranchAbs,	      // jump unconditionally to Target value	   
-                     BranchRelEn,	   // jump conditionally to Target + PC
-                     ALU_flag;		   // zero output from ALU. TODO: useless flag, delete
+                     BranchRelEn;	   // jump conditionally to Target + PC
   input       [7:0] Target;		      // jump ... "how high?"
-  output reg[7:0] ProgCtr ;            // the program counter register itself
+  output reg[10:0] ProgCtr ;            // the program counter register itself
   
   
   //// program counter can clear to 0, increment, or jump
@@ -28,12 +26,15 @@ module InstFetch(Reset,Start,Clk,BranchRelEn,ALU_flag,Target,ProgCtr);
 		  ProgCtr <= 0;				        // for first program; want different value for 2nd or 3rd
 		else if(Start)						     // hold while start asserted; commence when released
 		  ProgCtr <= ProgCtr;
-		//else if(BranchAbs)	              // unconditional absolute jump
-		  //ProgCtr <= Target;
 		else if(BranchRelEn)               // conditional relative jump
-		  ProgCtr <= Target + ProgCtr;
+		  begin
+		  if( Target < 128 )
+				ProgCtr <= Target + ProgCtr;
+		  else 
+				ProgCtr <= ProgCtr - {1'b0,Target[6:0]};
+		  end
 		else
-		  ProgCtr <= ProgCtr+'b1; 	        // default increment (no need for ARM/MIPS +4. Pop quiz: why?)
+		  ProgCtr <= ProgCtr+1'b1; 	        // default increment (no need for ARM/MIPS +4. Pop quiz: why?)
 	end
 
 

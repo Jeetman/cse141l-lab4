@@ -21,10 +21,10 @@ module CPU(Reset, Start, Clk,Ack);
 
 	
 	
-	wire [ 9:0] PgmCtr,        // program counter
+	wire [ 10:0] PgmCtr,        // program counter
 			      PCTarg;
 	wire [ 8:0] Instruction;   // our 9-bit instruction
-	wire [ 2:0] Instr_opcode;  // out 3-bit opcode
+	wire [ 3:0] Instr_opcode;  // out 3-bit opcode
 	wire [ 7:0] ReadA, ReadB;  // reg_file outputs
 	wire [ 7:0] InA, InB, 	   // ALU operand inputs
 					ALU_out;       // ALU result
@@ -32,8 +32,8 @@ module CPU(Reset, Start, Clk,Ack);
 					MemWriteValue, // data in to data_memory
 					MemReadValue;  // data out from data_memory
 	wire        MemWrite,	   // data_memory write enable
-				   RegWrEn,	      // reg_file write enable
-					opsWrite,
+					MovInst,
+					OverFlow,
 				   Zero,		      // ALU output = 0 flag
 					Jump,	         // to program counter: jump 
 					BranchEn;	   // to program counter: branch enable
@@ -45,74 +45,85 @@ module CPU(Reset, Start, Clk,Ack);
 	.Reset       (Reset   ) , 
 	.Start       (Start   ) ,  
 	.Clk         (Clk     ) ,  
-	//.BranchAbs   (Jump    ) ,  // jump enable
 	.BranchRelEn (BranchEn) ,  // branch enable
-	.ALU_flag	 (Zero    ) ,
    .Target      (ReadB  ) ,
 	.ProgCtr     (PgmCtr  )	   // program count = index to instruction memory
 	);	
-
-	// Control decoder
-  Ctrl Ctrl1 (
-	.Instruction  (Instruction),    // from instr_ROM
-	.jmpReg		  (ReadA),
-	.Jump         (Jump),		     // to PC
-	.BranchEn     (BranchEn)		  // to PC
-  );
-  
-  
-	// instruction ROM
+	
+		// instruction ROM
   InstROM IR1(
 	.InstAddress   (PgmCtr), 
 	.InstOut       (Instruction)
 	);
 	
-	assign LoadInst = Instruction[8:5]==4'b1000;  // calls out load specially
-	
+	//Check if hlt instr
 	always@*							  
 	begin
 		if (Instruction[8:5] == 4'b1111)
-			Ack = 1;  // Update this to the condition you want to set done to true
+			Ack = 1;  
 		else 
 			Ack = 0;
 	end
 	
+	//check if mov instr
+   assign MovInst = Instruction[8:5] == 4'b0111;
+	//check if ldl / ldh
+	assign OpsInst = Instruction[8:5] == 4'b1010 || Instruction[8:5] == 4'b1011;
+	//check if ldh instr
+	assign LoadHigh = Instruction[8:5] == 4'b1010;
+	//check if ldb instr
+	assign LoadInst = Instruction[8:5] == 4'b1000;
+	//check if str instr
+	assign MemWrite = (Instruction[8:5] == 4'b1001);  
 	
+	// Control decoder
+  Ctrl Ctrl1 (
+	.Instruction  (Instruction),    // from instr_ROM
+	.jmpReg		  (ReadA),
+	.MemReadValue (MemReadValue),
+	.ALU_out      (ALU_out),
+	.Jump         (Jump),		     // to PC
+	.BranchEn     (BranchEn),		  // to PC
+	.RegWriteValue (RegWriteValue)
+   );
+
 	//Reg file
 	// Modify D = *Number of bits you use for each register*
    // Width of register is 8 bits, do not modify
 	RegFile #(.W(8),.D(4)) RF1 (
-		.Clk    		(Clk)		  ,
-		.WriteEn   (RegWrEn)    ,
-		.opsWrite  (opsWrite)	,
+		.Clk    	  (Clk)		   ,
+		.opsWrite  (OpsInst)	,
+		.loadHigh  (LoadHigh),
 		.jmp		  (Jump)			,
 		.jmpReg    (Instruction[4:1]),
-		.Waddr     (Instruction[7:3]), 	       
+		.Waddr     (Instruction[4:1]),
+		.isMov     (MovInst)         ,
+		.loadByte  (LoadInst)      ,
+		.OverFlow  (OverFlow)		,
 		.DataIn    (RegWriteValue) , 
 		.DataOutA  (ReadA        ) , 
-		.DataOutB  (ReadB		 )
+		.DataOutB  (ReadB		 ),
+		.MemWriteValue (MemWriteValue)
 	);
 	
 	
-	
-	assign InA = ReadA;						                       // connect RF out to ALU in
-	assign InB = ReadB;
+	// connect RF out to ALU in
+	assign InA = MemWrite ? Instruction[4:0] : ReadA;						                      
+	assign InB = LoadInst ? Instruction[4:0] : ReadB;
 	assign Instr_opcode = Instruction[8:5];
-	assign MemWrite = (Instruction[8:5] == 4'b1001);                 // mem_store command
-	assign RegWriteValue = LoadInst? MemReadValue : ALU_out;  // 2:1 switch into reg_file
 	
 
 	// Arithmetic Logic Unit
 	ALU ALU1(
 	  .InputA(InA),      	  
 	  .InputB(InB),
-	  .OP(Instruction[8:5]),				  
+	  .OP(Instr_opcode),				  
 	  .Out(ALU_out),		  			
-	  .Zero(),
-		 );
+	  .Over(OverFlow)
+	);
 	 
 	 
-	 // Data Memory
+	// Data Memory
 	 	DataMem DM1(
 		.DataAddress  (ALU_out)    , 
 		.WriteEn      (MemWrite), 
