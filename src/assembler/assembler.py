@@ -51,13 +51,16 @@ def main():
     with open(results.file_in, 'r') as fi, open(results.file_out, 'w') as fo:
         lines = [line.rstrip() for line in fi]
 
-        # TODO: determine whether or not to include newlines (currently we
-        # don't)
+        line_ct = 0
         for inst in lines:
-            fo.write(assembly_to_machine(inst))
-            fo.write('\n')
+            if inst[0] == '#':
+                continue
+            else:
+                fo.write(assembly_to_machine(inst))
+                fo.write('\n')
+                line_ct += 1
 
-        print(f'Wrote {len(lines)} instructions to {results.file_out}.\n')
+        print(f'Wrote {line_ct} instructions to {results.file_out}.\n')
 
 
 if __name__ == "__main__":
