@@ -74,16 +74,16 @@ module CPU(Reset, Start, Clk,Ack);
 	//check if ldb instr
 	assign LoadInst = Instruction[8:5] == 4'b1000;
 	//check if str instr
-	assign MemWrite = (Instruction[8:5] == 4'b1001);  
+	assign MemWrite = (Instruction[8:5] == 4'b1001); 
+	//check if jmp instr
+	assign Jump = Instruction[8:5] == 4'b1100;
+	assign BranchEn = Jump ? ReadA : 0;
 	
 	// Control decoder
   Ctrl Ctrl1 (
 	.Instruction  (Instruction),    // from instr_ROM
-	.jmpReg		  (ReadA),
 	.MemReadValue (MemReadValue),
 	.ALU_out      (ALU_out),
-	.Jump         (Jump),		     // to PC
-	.BranchEn     (BranchEn),		  // to PC
 	.RegWriteValue (RegWriteValue)
    );
 

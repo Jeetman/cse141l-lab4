@@ -10,31 +10,15 @@
 // outputs to program_counter (fetch unit)
 // There may be more outputs going to other modules
 
-module Ctrl (Instruction, jmpReg, MemReadValue, ALU_out, Jump, BranchEn,RegWriteValue);
+module Ctrl (Instruction, jmpReg, MemReadValue, ALU_out,RegWriteValue);
 
 
   input[ 8:0] Instruction;	   // machine code
   input[ 7:0] jmpReg,         // reg to check if jmp or not
 				  MemReadValue,   //value read from memory
 				  ALU_out;        //value computed by alu
-  output reg Jump, BranchEn;
   output reg[7:0] RegWriteValue;
 
-	// jump on right shift that generates a zero
-	always@*
-	begin
-	  if(Instruction[8:5] ==  4'b1100) // jump = 1100
-		 begin
-			Jump = 1;
-			if( jmpReg == 1 )
-				BranchEn = 1;
-		 end
-	  else
-		 begin
-			Jump = 0;
-			BranchEn = 0;
-		 end
-	end
    //determine what is written to register
 	always@*							  
 	begin

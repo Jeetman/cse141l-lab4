@@ -62,6 +62,8 @@ always @ (posedge Clk)
 	  Registers[13][7:4] <= DataIn[3:0];
   else if (opsWrite && !loadHigh)
 	  Registers[13][3:0] <= DataIn[3:0];
+  else if (jmp)
+	  ;
   else
     begin
 	  Registers[Waddr] <= DataIn;
