@@ -22,7 +22,7 @@ module InstROM (InstAddress, InstOut) ;
   always@* InstOut = inst_rom[InstAddress];
  
   initial begin		                  // load from external text file
-  	$readmemb("machine_code.txt",inst_rom);
+  	$readmemb("C:/Users/Aabjeet/cse141l-lab2/machine_code.txt",inst_rom);
   end 
   
 endmodule

@@ -6,7 +6,6 @@
 // Based on SystemVerilog source code provided by John Eldon
 module test_bench_3();
 
-
   reg      clk   = 1'b0   ;      // advances simulation step-by-step
   reg      init  = 1'b1   ;      // init (reset) command to DUT
   reg      start = 1'b1   ;      // req (start program) command to DUT
@@ -37,7 +36,7 @@ reg[23:0] result2,	   // desired final result, rounded to 24 bits
           result2_DUT;   // actual result from DUT
 			
 // program 3 variables
-reg[15:0] dat_in3;	   // operand to DUT
+reg[15:0] dat_in3,i;	   // operand to DUT
 reg[ 7:0] result3;	   // expected SQRT(operand) result from DUT
 reg[47:0] square3;	   // internal expansion of operand
 reg[ 7:0] result3_DUT;   // actual SQRT(operand) result from DUT
@@ -52,24 +51,30 @@ always begin
 end
 
 initial begin
-
-// preload operands and launch program 3
-  #10; init = 0; start = 1;
-// insert operand
-  dat_in3 = 256;// Max : 65535;		   // *** try various values here ***
-// *** change names of memory or its guts as needed ***
-  dut.DM1.Core[16] = dat_in3[15: 8];
-  dut.DM1.Core[17] = dat_in3[ 7: 0];
-  if(dat_in3==0) result3 = 0;   // trap 0 case up front
-  else div3;
-  #20; start = 0;
-  #20; wait(done);
-// *** change names of memory or its guts as needed ***
-  result3_DUT = dut.DM1.Core[18];     
-  $display("operand(hex) = %h, sqrt(hex) = %h",dat_in3,result3);
-  if(result3==result3_DUT) $display("success -- match3");
-  else $display("OOPS3! expected %h (hex), got %h",result3,result3_DUT);
-  #10;
+  for(i = 0; i < 65536; i = i + 1) begin
+	// preload operands and launch program 3
+	  #10; init = 0; start = 1;
+	// insert operand
+	  dat_in3 = i;// Max : 65535;		   // *** try various values here ***
+	// *** change names of memory or its guts as needed ***
+	  dut.DM1.Core[16] = dat_in3[15: 8];
+	  dut.DM1.Core[17] = dat_in3[ 7: 0];
+	  if(dat_in3==0) result3 = 0;   // trap 0 case up front
+	  else div3;
+	  #20; start = 0;
+	  #20; wait(done); init = 1;
+	// *** change names of memory or its guts as needed ***
+	  result3_DUT = dut.DM1.Core[18];     
+	  $display("operand(hex) = %h, sqrt(hex) = %h",dat_in3,result3);
+	  if(result3==result3_DUT) $display("test %d success -- match3",i);
+	  else
+	    begin 
+			$display("OOPS3! expected %h (hex), got %h",result3,result3_DUT);
+			$stop;
+		 end
+	  #10;
+  end
+  $display("All tests passed");
   $stop;
 end
 
