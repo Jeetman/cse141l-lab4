@@ -11,7 +11,7 @@
 /* parameters are compile time directives 
        this can be an any-size reg_file: just override the params!
 */
-module RegFile (Clk,opsWrite,loadHigh,jmp,isMov,loadByte,OverFlow,jmpReg,Waddr,DataIn,DataOutA,DataOutB,MemWriteValue);
+module RegFile (Clk,opsWrite,loadHigh,jmp,isMov,loadByte,rightShift,OverFlow,jmpReg,Waddr,DataIn,DataOutA,DataOutB,MemWriteValue);
 	parameter W=8, D=4;  // W = data path width (Do not change); D = pointer width (You may change)
 	input                Clk,
 	  			 			   opsWrite,
@@ -19,6 +19,7 @@ module RegFile (Clk,opsWrite,loadHigh,jmp,isMov,loadByte,OverFlow,jmpReg,Waddr,D
 								jmp,
 								isMov,
 								loadByte,
+								rightShift,
 								OverFlow;
 	input        [D-1:0] Waddr,
 								jmpReg;
@@ -67,6 +68,9 @@ always @ (posedge Clk)
   else
     begin
 	  Registers[Waddr] <= DataIn;
-	  Registers[12] <= OverFlow;
+	  if (rightShift)
+			Registers[12] <= {OverFlow,7'b0000000};
+	  else 
+	      Registers[12] <= OverFlow;
 	 end
 endmodule

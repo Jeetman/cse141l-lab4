@@ -10,12 +10,11 @@
 // outputs to program_counter (fetch unit)
 // There may be more outputs going to other modules
 
-module Ctrl (Instruction, jmpReg, MemReadValue, ALU_out,RegWriteValue);
+module Ctrl (Instruction, MemReadValue, ALU_out,RegWriteValue);
 
 
   input[ 8:0] Instruction;	   // machine code
-  input[ 7:0] jmpReg,         // reg to check if jmp or not
-				  MemReadValue,   //value read from memory
+  input[ 7:0] MemReadValue,   //value read from memory
 				  ALU_out;        //value computed by alu
   output reg[7:0] RegWriteValue;
 

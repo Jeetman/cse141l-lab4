@@ -38,6 +38,7 @@ module CPU(Reset, Start, Clk,Ack);
 					Jump,	         // to program counter: jump 
 					BranchEn;	   // to program counter: branch enable
 	reg  [15:0] CycleCt;	      // standalone; NOT PC!
+	reg			ShiftOut;
 
 	// Fetch = Program Counter + Instruction ROM
 	// Program Counter
@@ -74,10 +75,11 @@ module CPU(Reset, Start, Clk,Ack);
 	//check if ldb instr
 	assign LoadInst = Instruction[8:5] == 4'b1000;
 	//check if str instr
-	assign MemWrite = (Instruction[8:5] == 4'b1001); 
+	assign MemWrite = Instruction[8:5] == 4'b1001; 
 	//check if jmp instr
 	assign Jump = Instruction[8:5] == 4'b1100;
-	assign BranchEn = Jump ? ReadA : 0;
+	assign RightShift = Instruction[8:5] == 4'b0010;
+	assign BranchEn = Jump ? (ReadA > 0) : 0;
 	
 	// Control decoder
   Ctrl Ctrl1 (
@@ -99,6 +101,7 @@ module CPU(Reset, Start, Clk,Ack);
 		.Waddr     (Instruction[4:1]),
 		.isMov     (MovInst)         ,
 		.loadByte  (LoadInst)      ,
+		.rightShift(RightShift)    ,
 		.OverFlow  (OverFlow)		,
 		.DataIn    (RegWriteValue) , 
 		.DataOutA  (ReadA        ) , 
@@ -111,7 +114,7 @@ module CPU(Reset, Start, Clk,Ack);
 	assign InA = MemWrite ? Instruction[4:0] : ReadA;						                      
 	assign InB = LoadInst ? Instruction[4:0] : ReadB;
 	assign Instr_opcode = Instruction[8:5];
-	
+	// Will/was a 1 be shifted out to the right?
 
 	// Arithmetic Logic Unit
 	ALU ALU1(
@@ -121,7 +124,6 @@ module CPU(Reset, Start, Clk,Ack);
 	  .Out(ALU_out),		  			
 	  .Over(OverFlow)
 	);
-	 
 	 
 	// Data Memory
 	 	DataMem DM1(
@@ -139,8 +141,11 @@ module CPU(Reset, Start, Clk,Ack);
 // Help you with debugging
 	always @(posedge Clk)
 	  if (Start == 1)	   // if(start)
-		 CycleCt <= 0;
+	    begin
+		   CycleCt <= 0;
+		 end
 	  else if(Ack == 0)   // if(!halt)
-		 CycleCt <= CycleCt+16'b1;
-
+	    begin
+		   CycleCt <= CycleCt+16'b1;
+		 end
 endmodule

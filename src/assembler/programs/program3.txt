@@ -1,5 +1,7 @@
 ldh 0	#r0 = 0
 mov 0
+ldh 11  #r11 = 0
+mov 0
 ldh 5
 mov 4
 ldh 1
@@ -86,4 +88,124 @@ lsr 2
 ldh 11
 ldl 15
 jmp 14 #to while1
-hlt    
+ldh 0  #while2
+ldl 7
+jmp 1 #jump to body2 if top bits are non-zero 
+ldh 0
+ldl 4
+jmp 2 #jump to body2 if bottom bits are non-zero
+ldh 6
+ldl 8
+jmp 14 #jump to done
+ldh 0  #body2
+ldl 2  
+add 9 
+ldh 1 
+ldl 12
+add 8  
+ldh 8  
+ldl 11
+add 8  #tmp = ret + bit
+ldh 8  #if
+ldl 3
+slt 5
+ldh 1
+ldl 7
+jmp 5  #if num[15:8] > tmp[15:8] jmp to else
+ldh 3
+ldl 8
+slt 5
+ldh 0
+ldl 10
+jmp 5 #if tmp[15:8] > num[15:8] jmp to body3
+ldh 4
+ldl 9
+slt 5
+ldh 0
+ldl 4
+jmp 5 #if num[7:0] < tmp[7:0] jmp to body3
+ldh 0
+ldl 7
+jmp 14 #to else
+ldh 0 #body3
+ldl 14
+lsr 0 #ret >> 1
+ldh 2
+ldl 3
+jmp 14 #to always
+ldh 5 #else
+mov 3
+ldh 10 
+mov 31
+ldl 5
+lsl 10
+ldh 5
+mov 7
+ldl 10
+add 10 #r10 = 0xFF
+ldh 8
+ldl 10
+xor 5  #r5 = upper bits of tmp flipped
+ldh 9
+xor 7  #r7 = lower bits of tmp flipped
+ldh 7
+ldl 14
+add 7  #r7 += 1
+ldh 5
+ldl 12
+add 5  #add overflow to upper bits
+ldh 4
+ldl 7
+add 4
+ldh 3
+ldl 12
+add 3
+ldl 5
+add 3  #num -= tmp
+ldh 0
+ldl 14
+lsr 0  # ret >> 1
+ldl 2
+add 0  # ret = ret + bit
+ldh 10 #always
+mov 2
+ldl 1
+slt 5
+ldh 0
+ldl 14
+jmp 5  #to shitf3
+ldh 1
+ldl 3
+jmp 6  #to shift4
+ldh 2
+ldl 15
+add 2  #init r2 to 0x40
+ldh 6
+mov 1
+ldh 1
+mov 0
+ldh 13
+ldl 15
+jmp 14 #to while2
+ldh 10 #shift3
+mov 2
+ldh 1
+ldl 10
+lsr 1  # bit >> 2
+ldh 14
+ldl 7
+jmp 14 #to while2
+ldh 10 #shift4
+mov 2
+ldh 2
+ldl 10
+lsr 2
+ldh 14
+ldl 15
+jmp 14 #to while2
+ldh 1  #done
+mov 15
+ldh 0
+ldl 1
+str 3
+hlt
