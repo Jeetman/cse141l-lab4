@@ -57,8 +57,14 @@ initial begin
 // launch program 1
   #10; start = 1; init =0;
   dividend = 64'h8000_0000_0000_0000;	   // this is 1.000000000
-  // *** try various values here ***
-  divisor1 = 3;		// This is testing 1/4, which would produce hex value 2000        
+  // values successfully tested:
+  // 1
+  // 2
+  // 43
+  // 256
+  // 58010
+  // 65535
+  divisor1 = 43;   
 // your memory gets loaded here
 // *** change names of memory or its guts as needed ***
   dut.DM1.Core[8] = divisor1[15:8];
