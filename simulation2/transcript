@@ -1,0 +1,2504 @@
+# Compile of ALU.v was successful.
+# Compile of CPU.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of DataMem.v was successful.
+# Compile of InstFetch.v was successful.
+# Compile of InstROM.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of test_bench_2.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.test_bench_2
+# vsim work.test_bench_2 
+# Start time: 18:08:18 on Dec 06,2020
+# Loading work.test_bench_2
+# Loading work.CPU
+# Loading work.InstFetch
+# Loading work.InstROM
+# Loading work.Ctrl
+# Loading work.RegFile
+# Loading work.ALU
+# Loading work.DataMem
+vsim work.test_bench_2
+# End time: 18:11:32 on Dec 06,2020, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 5
+# vsim work.test_bench_2 
+# Start time: 18:11:32 on Dec 06,2020
+# Loading work.test_bench_2
+# Loading work.CPU
+# Loading work.InstFetch
+# Loading work.InstROM
+# Loading work.Ctrl
+# Loading work.RegFile
+# Loading work.ALU
+# Loading work.DataMem
+run -all
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 80, quotient = 00795e0000000000, result2 = 00795e, equiv to  121.36719
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 81, quotient = 00786d25b496d25b, result2 = 00786d, equiv to  120.42636
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 82, quotient = 0077800000000000, result2 = 007780, equiv to  119.50000
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 83, quotient = 007696792909c55f, result2 = 007696, equiv to  118.58779
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 84, quotient = 0075b07c1f07c1f0, result2 = 0075b0, equiv to  117.68939
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 85, quotient = 0074cdf4737d1cdf, result2 = 0074cd, equiv to  116.80451
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 86, quotient = 0073eece540f4898, result2 = 0073ee, equiv to  115.93284
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 87, quotient = 007312f684bda12f, result2 = 007312, equiv to  115.07407
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 88, quotient = 00723a5a5a5a5a5a, result2 = 00723a, equiv to  114.22794
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 89, quotient = 007164e7b54166c6, result2 = 007164, equiv to  113.39416
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 8a, quotient = 0070928cfc4a33f1, result2 = 007092, equiv to  112.57246
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 8b, quotient = 006fc33917f14424, result2 = 006fc3, equiv to  111.76259
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 8c, quotient = 006ef6db6db6db6d, result2 = 006ef6, equiv to  110.96429
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 8d, quotient = 006e2d63dbb01d0c, result2 = 006e2d, equiv to  110.17730
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 8e, quotient = 006d66c2b4481cd8, result2 = 006d66, equiv to  109.40141
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 8f, quotient = 006ca2e8ba2e8ba2, result2 = 006ca2, equiv to  108.63636
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 90, quotient = 006be1c71c71c71c, result2 = 006be1, equiv to  107.88194
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 91, quotient = 006b234f72c234f7, result2 = 006b23, equiv to  107.13793
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 92, quotient = 006a6773b9dcee77, result2 = 006a67, equiv to  106.40411
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 93, quotient = 0069ae26501bdd2b, result2 = 0069ae, equiv to  105.68027
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 94, quotient = 0068f759f2298375, result2 = 0068f7, equiv to  104.96622
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 95, quotient = 00684301b7d6c3dd, result2 = 006843, equiv to  104.26174
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 96, quotient = 0067911111111111, result2 = 006791, equiv to  103.56667
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 97, quotient = 0066e17bc2f785ef, result2 = 0066e1, equiv to  102.88079
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 98, quotient = 00663435e50d7943, result2 = 006634, equiv to  102.20395
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 99, quotient = 00658933de8933de, result2 = 006589, equiv to  101.53595
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 9a, quotient = 0064e06a63bd81a9, result2 = 0064e0, equiv to  100.87662
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 9b, quotient = 006439ce739ce739, result2 = 006439, equiv to  100.22581
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 9c, quotient = 0063955555555555, result2 = 006395, equiv to   99.58333
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 9d, quotient = 0062f2f4960342da, result2 = 0062f2, equiv to   98.94904
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 9e, quotient = 006252a2067b23a5, result2 = 006252, equiv to   98.32278
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = 9f, quotient = 0061b453b9284067, result2 = 0061b4, equiv to   97.70440
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a0, quotient = 0061180000000000, result2 = 006118, equiv to   97.09375
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a1, quotient = 00607d9d6a88bece, result2 = 00607d, equiv to   96.49068
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a2, quotient = 005fe522c3f35ba7, result2 = 005fe5, equiv to   95.89506
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a3, quotient = 005f4e871146acc2, result2 = 005f4e, equiv to   95.30675
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a4, quotient = 005eb9c18f9c18f9, result2 = 005eb9, equiv to   94.72561
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a5, quotient = 005e26c9b26c9b26, result2 = 005e26, equiv to   94.15152
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a6, quotient = 005d959721ed7e75, result2 = 005d95, equiv to   93.58434
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a7, quotient = 005d0621b97c2aec, result2 = 005d06, equiv to   93.02395
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a8, quotient = 005c786186186186, result2 = 005c78, equiv to   92.47024
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = a9, quotient = 005bec4ec4ec4ec4, result2 = 005bec, equiv to   91.92308
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = aa, quotient = 005b61e1e1e1e1e1, result2 = 005b61, equiv to   91.38235
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ab, quotient = 005ad9137644dd91, result2 = 005ad9, equiv to   90.84795
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ac, quotient = 005a51dc47711dc4, result2 = 005a51, equiv to   90.31977
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ad, quotient = 0059cc35458c93fa, result2 = 0059cc, equiv to   89.79769
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ae, quotient = 005948178a4c8178, result2 = 005948, equiv to   89.28161
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = af, quotient = 0058c57c57c57c57, result2 = 0058c5, equiv to   88.77143
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b0, quotient = 0058445d1745d174, result2 = 005844, equiv to   88.26705
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b1, quotient = 0057c4b35839da65, result2 = 0057c4, equiv to   87.76836
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b2, quotient = 00574678cf19e33c, result2 = 005746, equiv to   87.27528
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b3, quotient = 0056c9a75461405b, result2 = 0056c9, equiv to   86.78771
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b4, quotient = 00564e38e38e38e3, result2 = 00564e, equiv to   86.30556
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b5, quotient = 0055d4279a2a6e52, result2 = 0055d4, equiv to   85.82873
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b6, quotient = 00555b6db6db6db6, result2 = 00555b, equiv to   85.35714
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b7, quotient = 0054e405987b1a94, result2 = 0054e4, equiv to   84.89071
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b8, quotient = 00546de9bd37a6f4, result2 = 00546d, equiv to   84.42935
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = b9, quotient = 0053f914c1bacf91, result2 = 0053f9, equiv to   83.97297
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ba, quotient = 0053858160581605, result2 = 005385, equiv to   83.52151
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = bb, quotient = 0053132a7041b613, result2 = 005313, equiv to   83.07487
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = bc, quotient = 0052a20ae4c415c9, result2 = 0052a2, equiv to   82.63298
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = bd, quotient = 0052321dcc877321, result2 = 005232, equiv to   82.19577
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = be, quotient = 0051c35e50d79435, result2 = 0051c3, equiv to   81.76316
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = bf, quotient = 005155c7b4f141ac, result2 = 005155, equiv to   81.33508
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c0, quotient = 0050e95555555555, result2 = 0050e9, equiv to   80.91146
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c1, quotient = 00507e02a721291e, result2 = 00507e, equiv to   80.49223
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c2, quotient = 005013cb376c34c8, result2 = 005013, equiv to   80.07732
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c3, quotient = 004faaaaaaaaaaaa, result2 = 004faa, equiv to   79.66667
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c4, quotient = 004f429cbc14e5e0, result2 = 004f42, equiv to   79.26020
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c5, quotient = 004edb9d3d137e0c, result2 = 004edb, equiv to   78.85787
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c6, quotient = 004e75a814afd6a0, result2 = 004e75, equiv to   78.45960
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c7, quotient = 004e10b93f090149, result2 = 004e10, equiv to   78.06533
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c8, quotient = 004daccccccccccc, result2 = 004dac, equiv to   77.67500
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = c9, quotient = 004d49dee2b4db10, result2 = 004d49, equiv to   77.28856
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ca, quotient = 004ce7ebb9079a9d, result2 = 004ce7, equiv to   76.90594
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = cb, quotient = 004c86ef9b1d0142, result2 = 004c86, equiv to   76.52709
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = cc, quotient = 004c26e6e6e6e6e6, result2 = 004c26, equiv to   76.15196
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = cd, quotient = 004bc7ce0c7ce0c7, result2 = 004bc7, equiv to   75.78049
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ce, quotient = 004b69a18dab7ec1, result2 = 004b69, equiv to   75.41262
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = cf, quotient = 004b0c5dfd86cd4b, result2 = 004b0c, equiv to   75.04831
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d0, quotient = 004ab00000000000, result2 = 004ab0, equiv to   74.68750
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d1, quotient = 004a5484497e29a5, result2 = 004a54, equiv to   74.33014
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d2, quotient = 0049f9e79e79e79e, result2 = 0049f9, equiv to   73.97619
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d3, quotient = 0049a026d31be7bc, result2 = 0049a0, equiv to   73.62559
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d4, quotient = 0049473ecade304d, result2 = 004947, equiv to   73.27830
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d5, quotient = 0048ef2c7830133a, result2 = 0048ef, equiv to   72.93427
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d6, quotient = 004897ecdc1cb5d4, result2 = 004897, equiv to   72.59346
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d7, quotient = 0048417d05f417d0, result2 = 004841, equiv to   72.25581
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d8, quotient = 0047ebda12f684bd, result2 = 0047eb, equiv to   71.92130
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = d9, quotient = 004797012e025c04, result2 = 004797, equiv to   71.58986
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = da, quotient = 004742ef8f441c2e, result2 = 004742, equiv to   71.26147
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = db, quotient = 0046efa27be89efa, result2 = 0046ef, equiv to   70.93607
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = dc, quotient = 00469d1745d1745d, result2 = 00469d, equiv to   70.61364
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = dd, quotient = 00464b4b4b4b4b4b, result2 = 00464b, equiv to   70.29412
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = de, quotient = 0045fa3bf6c657a3, result2 = 0045fa, equiv to   69.97748
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = df, quotient = 0045a9e6be90a54f, result2 = 0045a9, equiv to   69.66368
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e0, quotient = 00455a4924924924, result2 = 00455a, equiv to   69.35268
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e1, quotient = 00450b60b60b60b6, result2 = 00450b, equiv to   69.04444
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e2, quotient = 0044bd2b0b53d2b0, result2 = 0044bd, equiv to   68.73894
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e3, quotient = 00446fa5c79cc1f9, result2 = 00446f, equiv to   68.43612
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e4, quotient = 004422ce98b3a62c, result2 = 004422, equiv to   68.13596
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e5, quotient = 0043d6a336c6fca5, result2 = 0043d6, equiv to   67.83843
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e6, quotient = 00438b21642c8590, result2 = 00438b, equiv to   67.54348
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e7, quotient = 00434046ed29011b, result2 = 004340, equiv to   67.25108
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e8, quotient = 0042f611a7b9611a, result2 = 0042f6, equiv to   66.96121
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = e9, quotient = 0042ac7f735d63fb, result2 = 0042ac, equiv to   66.67382
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ea, quotient = 0042638e38e38e38, result2 = 004263, equiv to   66.38889
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = eb, quotient = 00421b3bea3677d4, result2 = 00421b, equiv to   66.10638
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ec, quotient = 0041d386822b63cb, result2 = 0041d3, equiv to   65.82627
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ed, quotient = 00418c6c045217c3, result2 = 00418c, equiv to   65.54852
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ee, quotient = 004145ea7cc5ea7c, result2 = 004145, equiv to   65.27311
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = ef, quotient = 0041000000000000, result2 = 004100, equiv to   65.00000
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f0, quotient = 0040baaaaaaaaaaa, result2 = 0040ba, equiv to   64.72917
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f1, quotient = 004075e8a175e8a1, result2 = 004075, equiv to   64.46058
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f2, quotient = 004031b810ecf56b, result2 = 004031, equiv to   64.19421
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f3, quotient = 003fee172d4ce7c5, result2 = 003fee, equiv to   63.93004
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f4, quotient = 003fab04325c53ef, result2 = 003fab, equiv to   63.66803
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f5, quotient = 003f687d6343eb1a, result2 = 003f68, equiv to   63.40816
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f6, quotient = 003f26810a6810a6, result2 = 003f26, equiv to   63.15041
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f7, quotient = 003ee50d79435e50, result2 = 003ee5, equiv to   62.89474
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f8, quotient = 003ea42108421084, result2 = 003ea4, equiv to   62.64113
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = f9, quotient = 003e63ba169e544e, result2 = 003e63, equiv to   62.38956
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = fa, quotient = 003e23d70a3d70a3, result2 = 003e23, equiv to   62.14000
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = fb, quotient = 003de4764f8dc4d8, result2 = 003de4, equiv to   61.89243
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = fc, quotient = 003da59659659659, result2 = 003da5, equiv to   61.64683
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = fd, quotient = 003d6735a0e2a7f7, result2 = 003d67, equiv to   61.40316
+# success -- match2
+# dividend = 3caf000000000000, div_in2 = 3caf, divisor2 = fe, quotient = 003d2952a54a952a, result2 = 003d29, equiv to   61.16142
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 80, quotient = 0079720000000000, result2 = 007972, equiv to  121.44531
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 81, quotient = 007880fe03f80fe0, result2 = 007880, equiv to  120.50388
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 82, quotient = 007793b13b13b13b, result2 = 007793, equiv to  119.57692
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 83, quotient = 0076aa03e88cb3c9, result2 = 0076aa, equiv to  118.66412
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 84, quotient = 0075c3e0f83e0f83, result2 = 0075c3, equiv to  117.76515
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 85, quotient = 0074e133f84cfe13, result2 = 0074e1, equiv to  116.87970
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 86, quotient = 007401e9131abf0b, result2 = 007401, equiv to  116.00746
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 87, quotient = 007325ed097b425e, result2 = 007325, equiv to  115.14815
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 88, quotient = 00724d2d2d2d2d2d, result2 = 00724d, equiv to  114.30147
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 89, quotient = 007177975b8fe21a, result2 = 007177, equiv to  113.46715
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 8a, quotient = 0070a519f89467e2, result2 = 0070a5, equiv to  112.64493
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 8b, quotient = 006fd5a3e9e63740, result2 = 006fd5, equiv to  111.83453
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 8c, quotient = 006f092492492492, result2 = 006f09, equiv to  111.03571
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 8d, quotient = 006e3f8bcd29c244, result2 = 006e3f, equiv to  110.24823
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 8e, quotient = 006d78c9ea5dbf19, result2 = 006d78, equiv to  109.47183
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 8f, quotient = 006cb4cfaa11e6ef, result2 = 006cb4, equiv to  108.70629
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 90, quotient = 006bf38e38e38e38, result2 = 006bf3, equiv to  107.95139
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 91, quotient = 006b34f72c234f72, result2 = 006b34, equiv to  107.20690
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 92, quotient = 006a78fc7e3f1f8f, result2 = 006a78, equiv to  106.47260
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 93, quotient = 0069bf908b51d9af, result2 = 0069bf, equiv to  105.74830
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 94, quotient = 006908a60dd67c8a, result2 = 006908, equiv to  105.03378
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 95, quotient = 006854301b7d6c3d, result2 = 006854, equiv to  104.32886
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 96, quotient = 0067a22222222222, result2 = 0067a2, equiv to  103.63333
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 97, quotient = 0066f26fe4dfc9bf, result2 = 0066f2, equiv to  102.94702
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 98, quotient = 0066450d79435e50, result2 = 006645, equiv to  102.26974
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 99, quotient = 006599ef4499ef44, result2 = 006599, equiv to  101.60131
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 9a, quotient = 0064f109f959c427, result2 = 0064f1, equiv to  100.94156
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 9b, quotient = 00644a5294a5294a, result2 = 00644a, equiv to  100.29032
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 9c, quotient = 0063a5be5be5be5b, result2 = 0063a5, equiv to   99.64744
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 9d, quotient = 00630342da7f2f49, result2 = 006303, equiv to   99.01274
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 9e, quotient = 006262d5df984dc5, result2 = 006262, equiv to   98.38608
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = 9f, quotient = 0061c46d7bf98f4b, result2 = 0061c4, equiv to   97.76730
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a0, quotient = 0061280000000000, result2 = 006128, equiv to   97.15625
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a1, quotient = 00608d83f9a3c6c1, result2 = 00608d, equiv to   96.55280
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a2, quotient = 005ff4f0329161f9, result2 = 005ff4, equiv to   95.95679
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a3, quotient = 005f5e3bae54cf50, result2 = 005f5e, equiv to   95.36810
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a4, quotient = 005ec95da895da89, result2 = 005ec9, equiv to   94.78659
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a5, quotient = 005e364d9364d936, result2 = 005e36, equiv to   94.21212
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a6, quotient = 005da503159721ed, result2 = 005da5, equiv to   93.64458
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a7, quotient = 005d15760932963a, result2 = 005d15, equiv to   93.08383
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a8, quotient = 005c879e79e79e79, result2 = 005c87, equiv to   92.52976
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = a9, quotient = 005bfb74a398fe7c, result2 = 005bfb, equiv to   91.98225
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = aa, quotient = 005b70f0f0f0f0f0, result2 = 005b70, equiv to   91.44118
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ab, quotient = 005ae80bfa02fe80, result2 = 005ae8, equiv to   90.90643
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ac, quotient = 005a60be82fa0be8, result2 = 005a60, equiv to   90.37791
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ad, quotient = 0059db017ad2208e, result2 = 0059db, equiv to   89.85549
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ae, quotient = 005956cdfa1d6cdf, result2 = 005956, equiv to   89.33908
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = af, quotient = 0058d41d41d41d41, result2 = 0058d4, equiv to   88.82857
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b0, quotient = 005852e8ba2e8ba2, result2 = 005852, equiv to   88.32386
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b1, quotient = 0057d329f18966b0, result2 = 0057d3, equiv to   87.82486
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b2, quotient = 005754da9b536a6d, result2 = 005754, equiv to   87.33146
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b3, quotient = 0056d7f48f044a5e, result2 = 0056d7, equiv to   86.84358
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b4, quotient = 00565c71c71c71c7, result2 = 00565c, equiv to   86.36111
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b5, quotient = 0055e24c602d4279, result2 = 0055e2, equiv to   85.88398
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b6, quotient = 0055697e97e97e97, result2 = 005569, equiv to   85.41209
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b7, quotient = 0054f202cc3d8d4a, result2 = 0054f2, equiv to   84.94536
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b8, quotient = 00547bd37a6f4de9, result2 = 00547b, equiv to   84.48370
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = b9, quotient = 005406eb3e45306e, result2 = 005406, equiv to   84.02703
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ba, quotient = 00539344d1344d13, result2 = 005393, equiv to   83.57527
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = bb, quotient = 005320db09953820, result2 = 005320, equiv to   83.12834
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = bc, quotient = 0052afa8d9df51b3, result2 = 0052af, equiv to   82.68617
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = bd, quotient = 00523fa94fea53fa, result2 = 00523f, equiv to   82.24868
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = be, quotient = 0051d0d79435e50d, result2 = 0051d0, equiv to   81.81579
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = bf, quotient = 0051632ee936f3ef, result2 = 005163, equiv to   81.38743
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c0, quotient = 0050f6aaaaaaaaaa, result2 = 0050f6, equiv to   80.96354
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c1, quotient = 00508b464ceec1a8, result2 = 00508b, equiv to   80.54404
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c2, quotient = 005020fd5c5f02a3, result2 = 005020, equiv to   80.12887
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c3, quotient = 004fb7cb7cb7cb7c, result2 = 004fb7, equiv to   79.71795
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c4, quotient = 004f4fac687d6343, result2 = 004f4f, equiv to   79.31122
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c5, quotient = 004ee89bf067f59a, result2 = 004ee8, equiv to   78.90863
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c6, quotient = 004e8295fad40a57, result2 = 004e82, equiv to   78.51010
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c7, quotient = 004e1d968337510b, result2 = 004e1d, equiv to   78.11558
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c8, quotient = 004db99999999999, result2 = 004db9, equiv to   77.72500
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = c9, quotient = 004d569b6211d4b2, result2 = 004d56, equiv to   77.33831
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ca, quotient = 004cf4981446f865, result2 = 004cf4, equiv to   76.95545
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = cb, quotient = 004c938bfaf4a676, result2 = 004c93, equiv to   76.57635
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = cc, quotient = 004c337373737373, result2 = 004c33, equiv to   76.20098
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = cd, quotient = 004bd44aed44aed4, result2 = 004bd4, equiv to   75.82927
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ce, quotient = 004b760ee9a18dab, result2 = 004b76, equiv to   75.46117
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = cf, quotient = 004b18bbfb0d9a96, result2 = 004b18, equiv to   75.09662
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d0, quotient = 004abc4ec4ec4ec4, result2 = 004abc, equiv to   74.73558
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d1, quotient = 004a60c3fb19b8f4, result2 = 004a60, equiv to   74.37799
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d2, quotient = 004a061861861861, result2 = 004a06, equiv to   74.02381
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d3, quotient = 0049ac48cbd45280, result2 = 0049ac, equiv to   73.67299
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d4, quotient = 004953521cfb2b78, result2 = 004953, equiv to   73.32547
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d5, quotient = 0048fb3146e92a10, result2 = 0048fb, equiv to   72.98122
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d6, quotient = 0048a3e34a2b10bf, result2 = 0048a3, equiv to   72.64019
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d7, quotient = 00484d653594d653, result2 = 00484d, equiv to   72.30233
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d8, quotient = 0047f7b425ed097b, result2 = 0047f7, equiv to   71.96759
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = d9, quotient = 0047a2cd459a8b35, result2 = 0047a2, equiv to   71.63594
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = da, quotient = 00474eadcc548cea, result2 = 00474e, equiv to   71.30734
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = db, quotient = 0046fb52fed4bfb5, result2 = 0046fb, equiv to   70.98174
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = dc, quotient = 0046a8ba2e8ba2e8, result2 = 0046a8, equiv to   70.65909
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = dd, quotient = 004656e0b956e0b9, result2 = 004656, equiv to   70.33937
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = de, quotient = 004605c40939a85c, result2 = 004605, equiv to   70.02252
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = df, quotient = 0045b5619416f5ab, result2 = 0045b5, equiv to   69.70852
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e0, quotient = 004565b6db6db6db, result2 = 004565, equiv to   69.39732
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e1, quotient = 004516c16c16c16c, result2 = 004516, equiv to   69.08889
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e2, quotient = 0044c87ede0487ed, result2 = 0044c8, equiv to   68.78319
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e3, quotient = 00447aecd40482d1, result2 = 00447a, equiv to   68.48018
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e4, quotient = 00442e08fb823ee0, result2 = 00442e, equiv to   68.17982
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e5, quotient = 0043e1d10c4c0478, result2 = 0043e1, equiv to   67.88210
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e6, quotient = 00439642c8590b21, result2 = 004396, equiv to   67.58696
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e7, quotient = 00434b5bfb912d6f, result2 = 00434b, equiv to   67.29437
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e8, quotient = 0043011a7b9611a7, result2 = 004301, equiv to   67.00431
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = e9, quotient = 0042b77c278dbbe1, result2 = 0042b7, equiv to   66.71674
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ea, quotient = 00426e7ee7ee7ee7, result2 = 00426e, equiv to   66.43162
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = eb, quotient = 00422620ae4c415c, result2 = 004226, equiv to   66.14894
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ec, quotient = 0041de5f75270d04, result2 = 0041de, equiv to   65.86864
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ed, quotient = 004197393fbade83, result2 = 004197, equiv to   65.59072
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ee, quotient = 004150ac19d0ac19, result2 = 004150, equiv to   65.31513
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = ef, quotient = 00410ab617909a3e, result2 = 00410a, equiv to   65.04184
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f0, quotient = 0040c55555555555, result2 = 0040c5, equiv to   64.77083
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f1, quotient = 00408087f78087f7, result2 = 004080, equiv to   64.50207
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f2, quotient = 00403c4c2a50658d, result2 = 00403c, equiv to   64.23554
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f3, quotient = 003ff8a021b64151, result2 = 003ff8, equiv to   63.97119
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f4, quotient = 003fb582192e29f7, result2 = 003fb5, equiv to   63.70902
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f5, quotient = 003f72f05397829c, result2 = 003f72, equiv to   63.44898
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f6, quotient = 003f30e91b0e91b0, result2 = 003f30, equiv to   63.19106
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f7, quotient = 003eef6ac0c6fef6, result2 = 003eef, equiv to   62.93522
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f8, quotient = 003eae739ce739ce, result2 = 003eae, equiv to   62.68145
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = f9, quotient = 003e6e020e64c148, result2 = 003e6e, equiv to   62.42972
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = fa, quotient = 003e2e147ae147ae, result2 = 003e2e, equiv to   62.18000
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = fb, quotient = 003deea94e88ab58, result2 = 003dee, equiv to   61.93227
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = fc, quotient = 003dafbefbefbefb, result2 = 003daf, equiv to   61.68651
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = fd, quotient = 003d7153fbf3db92, result2 = 003d71, equiv to   61.44269
+# success -- match2
+# dividend = 3cb9000000000000, div_in2 = 3cb9, divisor2 = fe, quotient = 003d3366cd9b366c, result2 = 003d33, equiv to   61.20079
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 80, quotient = 0079860000000000, result2 = 007986, equiv to  121.52344
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 81, quotient = 007894d653594d65, result2 = 007894, equiv to  120.58140
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 82, quotient = 0077a76276276276, result2 = 0077a7, equiv to  119.65385
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 83, quotient = 0076bd8ea80fa232, result2 = 0076bd, equiv to  118.74046
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 84, quotient = 0075d745d1745d17, result2 = 0075d7, equiv to  117.84091
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 85, quotient = 0074f4737d1cdf47, result2 = 0074f4, equiv to  116.95489
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 86, quotient = 00741503d226357e, result2 = 007415, equiv to  116.08209
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 87, quotient = 007338e38e38e38e, result2 = 007338, equiv to  115.22222
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 88, quotient = 0072600000000000, result2 = 007260, equiv to  114.37500
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 89, quotient = 00718a4701de5d6e, result2 = 00718a, equiv to  113.54015
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 8a, quotient = 0070b7a6f4de9bd3, result2 = 0070b7, equiv to  112.71739
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 8b, quotient = 006fe80ebbdb2a5c, result2 = 006fe8, equiv to  111.90647
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 8c, quotient = 006f1b6db6db6db6, result2 = 006f1b, equiv to  111.10714
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 8d, quotient = 006e51b3bea3677d, result2 = 006e51, equiv to  110.31915
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 8e, quotient = 006d8ad12073615a, result2 = 006d8a, equiv to  109.54225
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 8f, quotient = 006cc6b699f5423c, result2 = 006cc6, equiv to  108.77622
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 90, quotient = 006c055555555555, result2 = 006c05, equiv to  108.02083
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 91, quotient = 006b469ee58469ee, result2 = 006b46, equiv to  107.27586
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 92, quotient = 006a8a8542a150a8, result2 = 006a8a, equiv to  106.54110
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 93, quotient = 0069d0fac687d634, result2 = 0069d0, equiv to  105.81633
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 94, quotient = 006919f22983759f, result2 = 006919, equiv to  105.10135
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 95, quotient = 0068655e7f24149e, result2 = 006865, equiv to  104.39597
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 96, quotient = 0067b33333333333, result2 = 0067b3, equiv to  103.70000
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 97, quotient = 0067036406c80d90, result2 = 006703, equiv to  103.01325
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 98, quotient = 006655e50d79435e, result2 = 006655, equiv to  102.33553
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 99, quotient = 0065aaaaaaaaaaaa, result2 = 0065aa, equiv to  101.66667
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 9a, quotient = 006501a98ef606a6, result2 = 006501, equiv to  101.00649
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 9b, quotient = 00645ad6b5ad6b5a, result2 = 00645a, equiv to  100.35484
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 9c, quotient = 0063b62762762762, result2 = 0063b6, equiv to   99.71154
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 9d, quotient = 006313911efb1bb8, result2 = 006313, equiv to   99.07643
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 9e, quotient = 00627309b8b577e6, result2 = 006273, equiv to   98.44937
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = 9f, quotient = 0061d4873ecade30, result2 = 0061d4, equiv to   97.83019
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a0, quotient = 0061380000000000, result2 = 006138, equiv to   97.21875
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a1, quotient = 00609d6a88beceb5, result2 = 00609d, equiv to   96.61491
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a2, quotient = 006004bda12f684b, result2 = 006004, equiv to   96.01852
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a3, quotient = 005f6df04b62f1dd, result2 = 005f6d, equiv to   95.42945
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a4, quotient = 005ed8f9c18f9c18, result2 = 005ed8, equiv to   94.84756
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a5, quotient = 005e45d1745d1745, result2 = 005e45, equiv to   94.27273
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a6, quotient = 005db46f0940c565, result2 = 005db4, equiv to   93.70482
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a7, quotient = 005d24ca58e90188, result2 = 005d24, equiv to   93.14371
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a8, quotient = 005c96db6db6db6d, result2 = 005c96, equiv to   92.58929
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = a9, quotient = 005c0a9a8245ae33, result2 = 005c0a, equiv to   92.04142
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = aa, quotient = 005b800000000000, result2 = 005b80, equiv to   91.50000
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ab, quotient = 005af7047dc11f70, result2 = 005af7, equiv to   90.96491
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ac, quotient = 005a6fa0be82fa0b, result2 = 005a6f, equiv to   90.43605
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ad, quotient = 0059e9cdb017ad22, result2 = 0059e9, equiv to   89.91329
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ae, quotient = 0059658469ee5846, result2 = 005965, equiv to   89.39655
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = af, quotient = 0058e2be2be2be2b, result2 = 0058e2, equiv to   88.88571
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b0, quotient = 005861745d1745d1, result2 = 005861, equiv to   88.38068
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b1, quotient = 0057e1a08ad8f2fb, result2 = 0057e1, equiv to   87.88136
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b2, quotient = 0057633c678cf19e, result2 = 005763, equiv to   87.38764
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b3, quotient = 0056e641c9a75461, result2 = 0056e6, equiv to   86.89944
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b4, quotient = 00566aaaaaaaaaaa, result2 = 00566a, equiv to   86.41667
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b5, quotient = 0055f071263016a1, result2 = 0055f0, equiv to   85.93923
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b6, quotient = 0055778f78f78f78, result2 = 005577, equiv to   85.46703
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b7, quotient = 0055000000000000, result2 = 005500, equiv to   85.00000
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b8, quotient = 005489bd37a6f4de, result2 = 005489, equiv to   84.53804
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = b9, quotient = 005414c1bacf914c, result2 = 005414, equiv to   84.08108
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ba, quotient = 0053a10842108421, result2 = 0053a1, equiv to   83.62903
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = bb, quotient = 00532e8ba2e8ba2e, result2 = 00532e, equiv to   83.18182
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = bc, quotient = 0052bd46cefa8d9d, result2 = 0052bd, equiv to   82.73936
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = bd, quotient = 00524d34d34d34d3, result2 = 00524d, equiv to   82.30159
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = be, quotient = 0051de50d79435e5, result2 = 0051de, equiv to   81.86842
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = bf, quotient = 005170961d7ca632, result2 = 005170, equiv to   81.43979
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c0, quotient = 0051040000000000, result2 = 005104, equiv to   81.01563
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c1, quotient = 00509889f2bc5a32, result2 = 005098, equiv to   80.59585
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c2, quotient = 00502e2f8151d07e, result2 = 00502e, equiv to   80.18041
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c3, quotient = 004fc4ec4ec4ec4e, result2 = 004fc4, equiv to   79.76923
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c4, quotient = 004f5cbc14e5e0a7, result2 = 004f5c, equiv to   79.36224
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c5, quotient = 004ef59aa3bc6d28, result2 = 004ef5, equiv to   78.95939
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c6, quotient = 004e8f83e0f83e0f, result2 = 004e8f, equiv to   78.56061
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c7, quotient = 004e2a73c765a0cd, result2 = 004e2a, equiv to   78.16583
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c8, quotient = 004dc66666666666, result2 = 004dc6, equiv to   77.77500
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = c9, quotient = 004d6357e16ece54, result2 = 004d63, equiv to   77.38806
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ca, quotient = 004d01446f86562d, result2 = 004d01, equiv to   77.00495
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = cb, quotient = 004ca0285acc4baa, result2 = 004ca0, equiv to   76.62562
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = cc, quotient = 004c400000000000, result2 = 004c40, equiv to   76.25000
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = cd, quotient = 004be0c7ce0c7ce0, result2 = 004be0, equiv to   75.87805
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ce, quotient = 004b827c45979c95, result2 = 004b82, equiv to   75.50971
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = cf, quotient = 004b2519f89467e2, result2 = 004b25, equiv to   75.14493
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d0, quotient = 004ac89d89d89d89, result2 = 004ac8, equiv to   74.78365
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d1, quotient = 004a6d03acb54844, result2 = 004a6d, equiv to   74.42584
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d2, quotient = 004a124924924924, result2 = 004a12, equiv to   74.07143
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d3, quotient = 0049b86ac48cbd45, result2 = 0049b8, equiv to   73.72038
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d4, quotient = 00495f656f1826a4, result2 = 00495f, equiv to   73.37264
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d5, quotient = 0049073615a240e6, result2 = 004907, equiv to   73.02817
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d6, quotient = 0048afd9b8396ba9, result2 = 0048af, equiv to   72.68692
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d7, quotient = 0048594d653594d6, result2 = 004859, equiv to   72.34884
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d8, quotient = 0048038e38e38e38, result2 = 004803, equiv to   72.01389
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = d9, quotient = 0047ae995d32ba65, result2 = 0047ae, equiv to   71.68203
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = da, quotient = 00475a6c0964fda6, result2 = 00475a, equiv to   71.35321
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = db, quotient = 0047070381c0e070, result2 = 004707, equiv to   71.02740
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = dc, quotient = 0046b45d1745d174, result2 = 0046b4, equiv to   70.70455
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = dd, quotient = 0046627627627627, result2 = 004662, equiv to   70.38462
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = de, quotient = 0046114c1bacf914, result2 = 004611, equiv to   70.06757
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = df, quotient = 0045c0dc699d4606, result2 = 0045c0, equiv to   69.75336
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e0, quotient = 0045712492492492, result2 = 004571, equiv to   69.44196
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e1, quotient = 0045222222222222, result2 = 004522, equiv to   69.13333
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e2, quotient = 0044d3d2b0b53d2b, result2 = 0044d3, equiv to   68.82743
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e3, quotient = 00448633e06c43aa, result2 = 004486, equiv to   68.52423
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e4, quotient = 004439435e50d794, result2 = 004439, equiv to   68.22368
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e5, quotient = 0043ecfee1d10c4c, result2 = 0043ec, equiv to   67.92576
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e6, quotient = 0043a1642c8590b2, result2 = 0043a1, equiv to   67.63043
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e7, quotient = 0043567109f959c4, result2 = 004356, equiv to   67.33766
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e8, quotient = 00430c234f72c234, result2 = 00430c, equiv to   67.04741
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = e9, quotient = 0042c278dbbe13c6, result2 = 0042c2, equiv to   66.75966
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ea, quotient = 0042796f96f96f96, result2 = 004279, equiv to   66.47436
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = eb, quotient = 0042310572620ae4, result2 = 004231, equiv to   66.19149
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ec, quotient = 0041e9386822b63c, result2 = 0041e9, equiv to   65.91102
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ed, quotient = 0041a2067b23a544, result2 = 0041a2, equiv to   65.63291
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ee, quotient = 00415b6db6db6db6, result2 = 00415b, equiv to   65.35714
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = ef, quotient = 0041156c2f21347c, result2 = 004115, equiv to   65.08368
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f0, quotient = 0040d00000000000, result2 = 0040d0, equiv to   64.81250
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f1, quotient = 00408b274d8b274d, result2 = 00408b, equiv to   64.54357
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f2, quotient = 004046e043b3d5af, result2 = 004046, equiv to   64.27686
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f3, quotient = 00400329161f9add, result2 = 004003, equiv to   64.01235
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f4, quotient = 003fc00000000000, result2 = 003fc0, equiv to   63.75000
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f5, quotient = 003f7d6343eb1a1f, result2 = 003f7d, equiv to   63.48980
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f6, quotient = 003f3b512bb512bb, result2 = 003f3b, equiv to   63.23171
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f7, quotient = 003ef9c8084a9f9c, result2 = 003ef9, equiv to   62.97571
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f8, quotient = 003eb8c6318c6318, result2 = 003eb8, equiv to   62.72177
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = f9, quotient = 003e784a062b2e43, result2 = 003e78, equiv to   62.46988
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = fa, quotient = 003e3851eb851eb8, result2 = 003e38, equiv to   62.22000
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = fb, quotient = 003df8dc4d8391d9, result2 = 003df8, equiv to   61.97211
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = fc, quotient = 003db9e79e79e79e, result2 = 003db9, equiv to   61.72619
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = fd, quotient = 003d7b7257050f2d, result2 = 003d7b, equiv to   61.48221
+# success -- match2
+# dividend = 3cc3000000000000, div_in2 = 3cc3, divisor2 = fe, quotient = 003d3d7af5ebd7af, result2 = 003d3d, equiv to   61.24016
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 80, quotient = 00799a0000000000, result2 = 00799a, equiv to  121.60156
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 81, quotient = 0078a8aea2ba8aea, result2 = 0078a8, equiv to  120.65891
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 82, quotient = 0077bb13b13b13b1, result2 = 0077bb, equiv to  119.73077
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 83, quotient = 0076d1196792909c, result2 = 0076d1, equiv to  118.81679
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 84, quotient = 0075eaaaaaaaaaaa, result2 = 0075ea, equiv to  117.91667
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 85, quotient = 007507b301ecc07b, result2 = 007507, equiv to  117.03008
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 86, quotient = 0074281e9131abf0, result2 = 007428, equiv to  116.15672
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 87, quotient = 00734bda12f684bd, result2 = 00734b, equiv to  115.29630
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 88, quotient = 007272d2d2d2d2d2, result2 = 007272, equiv to  114.44853
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 89, quotient = 00719cf6a82cd8c2, result2 = 00719c, equiv to  113.61314
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 8a, quotient = 0070ca33f128cfc4, result2 = 0070ca, equiv to  112.78986
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 8b, quotient = 006ffa798dd01d77, result2 = 006ffa, equiv to  111.97842
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 8c, quotient = 006f2db6db6db6db, result2 = 006f2d, equiv to  111.17857
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 8d, quotient = 006e63dbb01d0cb5, result2 = 006e63, equiv to  110.39007
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 8e, quotient = 006d9cd85689039b, result2 = 006d9c, equiv to  109.61268
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 8f, quotient = 006cd89d89d89d89, result2 = 006cd8, equiv to  108.84615
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 90, quotient = 006c171c71c71c71, result2 = 006c17, equiv to  108.09028
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 91, quotient = 006b58469ee58469, result2 = 006b58, equiv to  107.34483
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 92, quotient = 006a9c0e070381c0, result2 = 006a9c, equiv to  106.60959
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 93, quotient = 0069e26501bdd2b8, result2 = 0069e2, equiv to  105.88435
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 94, quotient = 00692b3e45306eb3, result2 = 00692b, equiv to  105.16892
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 95, quotient = 0068768ce2cabcfe, result2 = 006876, equiv to  104.46309
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 96, quotient = 0067c44444444444, result2 = 0067c4, equiv to  103.76667
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 97, quotient = 0067145828b05160, result2 = 006714, equiv to  103.07947
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 98, quotient = 006666bca1af286b, result2 = 006666, equiv to  102.40132
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 99, quotient = 0065bb6610bb6610, result2 = 0065bb, equiv to  101.73203
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 9a, quotient = 0065124924924924, result2 = 006512, equiv to  101.07143
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 9b, quotient = 00646b5ad6b5ad6b, result2 = 00646b, equiv to  100.41935
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 9c, quotient = 0063c69069069069, result2 = 0063c6, equiv to   99.77564
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 9d, quotient = 006323df63770827, result2 = 006323, equiv to   99.14013
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 9e, quotient = 0062833d91d2a206, result2 = 006283, equiv to   98.51266
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = 9f, quotient = 0061e4a1019c2d14, result2 = 0061e4, equiv to   97.89308
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a0, quotient = 0061480000000000, result2 = 006148, equiv to   97.28125
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a1, quotient = 0060ad5117d9d6a8, result2 = 0060ad, equiv to   96.67702
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a2, quotient = 0060148b0fcd6e9e, result2 = 006014, equiv to   96.08025
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a3, quotient = 005f7da4e871146a, result2 = 005f7d, equiv to   95.49080
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a4, quotient = 005ee895da895da8, result2 = 005ee8, equiv to   94.90854
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a5, quotient = 005e555555555555, result2 = 005e55, equiv to   94.33333
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a6, quotient = 005dc3dafcea68de, result2 = 005dc3, equiv to   93.76506
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a7, quotient = 005d341ea89f6cd6, result2 = 005d34, equiv to   93.20359
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a8, quotient = 005ca61861861861, result2 = 005ca6, equiv to   92.64881
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = a9, quotient = 005c19c060f25dea, result2 = 005c19, equiv to   92.10059
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = aa, quotient = 005b8f0f0f0f0f0f, result2 = 005b8f, equiv to   91.55882
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ab, quotient = 005b05fd017f405f, result2 = 005b05, equiv to   91.02339
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ac, quotient = 005a7e82fa0be82f, result2 = 005a7e, equiv to   90.49419
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ad, quotient = 0059f899e55d39b6, result2 = 0059f8, equiv to   89.97110
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ae, quotient = 0059743ad9bf43ad, result2 = 005974, equiv to   89.45402
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = af, quotient = 0058f15f15f15f15, result2 = 0058f1, equiv to   88.94286
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b0, quotient = 0058700000000000, result2 = 005870, equiv to   88.43750
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b1, quotient = 0057f01724287f46, result2 = 0057f0, equiv to   87.93785
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b2, quotient = 0057719e33c678cf, result2 = 005771, equiv to   87.44382
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b3, quotient = 0056f48f044a5e64, result2 = 0056f4, equiv to   86.95531
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b4, quotient = 005678e38e38e38e, result2 = 005678, equiv to   86.47222
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b5, quotient = 0055fe95ec32eac8, result2 = 0055fe, equiv to   85.99448
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b6, quotient = 005585a05a05a05a, result2 = 005585, equiv to   85.52198
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b7, quotient = 00550dfd33c272b5, result2 = 00550d, equiv to   85.05464
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b8, quotient = 005497a6f4de9bd3, result2 = 005497, equiv to   84.59239
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = b9, quotient = 005422983759f229, result2 = 005422, equiv to   84.13514
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ba, quotient = 0053aecbb2ecbb2e, result2 = 0053ae, equiv to   83.68280
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = bb, quotient = 00533c3c3c3c3c3c, result2 = 00533c, equiv to   83.23529
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = bc, quotient = 0052cae4c415c988, result2 = 0052ca, equiv to   82.79255
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = bd, quotient = 00525ac056b015ac, result2 = 00525a, equiv to   82.35450
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = be, quotient = 0051ebca1af286bc, result2 = 0051eb, equiv to   81.92105
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = bf, quotient = 00517dfd51c25875, result2 = 00517d, equiv to   81.49215
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c0, quotient = 0051115555555555, result2 = 005111, equiv to   81.06771
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c1, quotient = 0050a5cd9889f2bc, result2 = 0050a5, equiv to   80.64767
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c2, quotient = 00503b61a6449e59, result2 = 00503b, equiv to   80.23196
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c3, quotient = 004fd20d20d20d20, result2 = 004fd2, equiv to   79.82051
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c4, quotient = 004f69cbc14e5e0a, result2 = 004f69, equiv to   79.41327
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c5, quotient = 004f02995710e4b5, result2 = 004f02, equiv to   79.01015
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c6, quotient = 004e9c71c71c71c7, result2 = 004e9c, equiv to   78.61111
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c7, quotient = 004e37510b93f090, result2 = 004e37, equiv to   78.21608
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c8, quotient = 004dd33333333333, result2 = 004dd3, equiv to   77.82500
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = c9, quotient = 004d701460cbc7f5, result2 = 004d70, equiv to   77.43781
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ca, quotient = 004d0df0cac5b3f5, result2 = 004d0d, equiv to   77.05446
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = cb, quotient = 004cacc4baa3f0dd, result2 = 004cac, equiv to   76.67488
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = cc, quotient = 004c4c8c8c8c8c8c, result2 = 004c4c, equiv to   76.29902
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = cd, quotient = 004bed44aed44aed, result2 = 004bed, equiv to   75.92683
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ce, quotient = 004b8ee9a18dab7e, result2 = 004b8e, equiv to   75.55825
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = cf, quotient = 004b3177f61b352d, result2 = 004b31, equiv to   75.19324
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d0, quotient = 004ad4ec4ec4ec4e, result2 = 004ad4, equiv to   74.83173
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d1, quotient = 004a79435e50d794, result2 = 004a79, equiv to   74.47368
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d2, quotient = 004a1e79e79e79e7, result2 = 004a1e, equiv to   74.11905
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d3, quotient = 0049c48cbd452809, result2 = 0049c4, equiv to   73.76777
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d4, quotient = 00496b78c13521cf, result2 = 00496b, equiv to   73.41981
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d5, quotient = 0049133ae45b57bc, result2 = 004913, equiv to   73.07512
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d6, quotient = 0048bbd02647c694, result2 = 0048bb, equiv to   72.73364
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d7, quotient = 0048653594d65359, result2 = 004865, equiv to   72.39535
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d8, quotient = 00480f684bda12f6, result2 = 00480f, equiv to   72.06019
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = d9, quotient = 0047ba6574cae995, result2 = 0047ba, equiv to   71.72811
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = da, quotient = 0047662a46756e62, result2 = 004766, equiv to   71.39908
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = db, quotient = 004712b404ad012b, result2 = 004712, equiv to   71.07306
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = dc, quotient = 0046c00000000000, result2 = 0046c0, equiv to   70.75000
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = dd, quotient = 00466e0b956e0b95, result2 = 00466e, equiv to   70.42986
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = de, quotient = 00461cd42e2049cd, result2 = 00461c, equiv to   70.11261
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = df, quotient = 0045cc573f239662, result2 = 0045cc, equiv to   69.79821
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e0, quotient = 00457c9249249249, result2 = 00457c, equiv to   69.48661
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e1, quotient = 00452d82d82d82d8, result2 = 00452d, equiv to   69.17778
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e2, quotient = 0044df268365f268, result2 = 0044df, equiv to   68.87168
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e3, quotient = 0044917aecd40482, result2 = 004491, equiv to   68.56828
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e4, quotient = 0044447dc11f7047, result2 = 004444, equiv to   68.26754
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e5, quotient = 0043f82cb756141f, result2 = 0043f8, equiv to   67.96943
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e6, quotient = 0043ac8590b21642, result2 = 0043ac, equiv to   67.67391
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e7, quotient = 0043618618618618, result2 = 004361, equiv to   67.38095
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e8, quotient = 0043172c234f72c2, result2 = 004317, equiv to   67.09052
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = e9, quotient = 0042cd758fee6bac, result2 = 0042cd, equiv to   66.80258
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ea, quotient = 0042846046046046, result2 = 004284, equiv to   66.51709
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = eb, quotient = 00423bea3677d46c, result2 = 00423b, equiv to   66.23404
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ec, quotient = 0041f4115b1e5f75, result2 = 0041f4, equiv to   65.95339
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ed, quotient = 0041acd3b68c6c04, result2 = 0041ac, equiv to   65.67511
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ee, quotient = 0041662f53e62f53, result2 = 004166, equiv to   65.39916
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = ef, quotient = 0041202246b1ceba, result2 = 004120, equiv to   65.12552
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f0, quotient = 0040daaaaaaaaaaa, result2 = 0040da, equiv to   64.85417
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f1, quotient = 004095c6a395c6a3, result2 = 004095, equiv to   64.58506
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f2, quotient = 004051745d1745d1, result2 = 004051, equiv to   64.31818
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f3, quotient = 00400db20a88f469, result2 = 00400d, equiv to   64.05350
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f4, quotient = 003fca7de6d1d608, result2 = 003fca, equiv to   63.79098
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f5, quotient = 003f87d6343eb1a1, result2 = 003f87, equiv to   63.53061
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f6, quotient = 003f45b93c5b93c5, result2 = 003f45, equiv to   63.27236
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f7, quotient = 003f04254fce4042, result2 = 003f04, equiv to   63.01619
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f8, quotient = 003ec318c6318c63, result2 = 003ec3, equiv to   62.76210
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = f9, quotient = 003e8291fdf19b3e, result2 = 003e82, equiv to   62.51004
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = fa, quotient = 003e428f5c28f5c2, result2 = 003e42, equiv to   62.26000
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = fb, quotient = 003e030f4c7e7859, result2 = 003e03, equiv to   62.01195
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = fc, quotient = 003dc41041041041, result2 = 003dc4, equiv to   61.76587
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = fd, quotient = 003d8590b21642c8, result2 = 003d85, equiv to   61.52174
+# success -- match2
+# dividend = 3ccd000000000000, div_in2 = 3ccd, divisor2 = fe, quotient = 003d478f1e3c78f1, result2 = 003d47, equiv to   61.27953
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 80, quotient = 0079ae0000000000, result2 = 0079ae, equiv to  121.67969
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 81, quotient = 0078bc86f21bc86f, result2 = 0078bc, equiv to  120.73643
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 82, quotient = 0077cec4ec4ec4ec, result2 = 0077ce, equiv to  119.80769
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 83, quotient = 0076e4a427157f05, result2 = 0076e4, equiv to  118.89313
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 84, quotient = 0075fe0f83e0f83e, result2 = 0075fe, equiv to  117.99242
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 85, quotient = 00751af286bca1af, result2 = 00751a, equiv to  117.10526
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 86, quotient = 00743b39503d2263, result2 = 00743b, equiv to  116.23134
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 87, quotient = 00735ed097b425ed, result2 = 00735e, equiv to  115.37037
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 88, quotient = 007285a5a5a5a5a5, result2 = 007285, equiv to  114.52206
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 89, quotient = 0071afa64e7b5416, result2 = 0071af, equiv to  113.68613
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 8a, quotient = 0070dcc0ed7303b5, result2 = 0070dc, equiv to  112.86232
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 8b, quotient = 00700ce45fc51093, result2 = 00700c, equiv to  112.05036
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 8c, quotient = 006f400000000000, result2 = 006f40, equiv to  111.25000
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 8d, quotient = 006e7603a196b1ed, result2 = 006e76, equiv to  110.46099
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 8e, quotient = 006daedf8c9ea5db, result2 = 006dae, equiv to  109.68310
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 8f, quotient = 006cea8479bbf8d6, result2 = 006cea, equiv to  108.91608
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 90, quotient = 006c28e38e38e38e, result2 = 006c28, equiv to  108.15972
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 91, quotient = 006b69ee58469ee5, result2 = 006b69, equiv to  107.41379
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 92, quotient = 006aad96cb65b2d9, result2 = 006aad, equiv to  106.67808
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 93, quotient = 0069f3cf3cf3cf3c, result2 = 0069f3, equiv to  105.95238
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 94, quotient = 00693c8a60dd67c8, result2 = 00693c, equiv to  105.23649
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 95, quotient = 006887bb4671655e, result2 = 006887, equiv to  104.53020
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 96, quotient = 0067d55555555555, result2 = 0067d5, equiv to  103.83333
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 97, quotient = 0067254c4a989531, result2 = 006725, equiv to  103.14570
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 98, quotient = 0066779435e50d79, result2 = 006677, equiv to  102.46711
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 99, quotient = 0065cc2176cc2176, result2 = 0065cc, equiv to  101.79739
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 9a, quotient = 006522e8ba2e8ba2, result2 = 006522, equiv to  101.13636
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 9b, quotient = 00647bdef7bdef7b, result2 = 00647b, equiv to  100.48387
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 9c, quotient = 0063d6f96f96f96f, result2 = 0063d6, equiv to   99.83974
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 9d, quotient = 0063342da7f2f496, result2 = 006334, equiv to   99.20382
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 9e, quotient = 006293716aefcc26, result2 = 006293, equiv to   98.57595
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = 9f, quotient = 0061f4bac46d7bf9, result2 = 0061f4, equiv to   97.95597
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a0, quotient = 0061580000000000, result2 = 006158, equiv to   97.34375
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a1, quotient = 0060bd37a6f4de9b, result2 = 0060bd, equiv to   96.73913
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a2, quotient = 006024587e6b74f0, result2 = 006024, equiv to   96.14198
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a3, quotient = 005f8d59857f36f8, result2 = 005f8d, equiv to   95.55215
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a4, quotient = 005ef831f3831f38, result2 = 005ef8, equiv to   94.96951
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a5, quotient = 005e64d9364d9364, result2 = 005e64, equiv to   94.39394
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a6, quotient = 005dd346f0940c56, result2 = 005dd3, equiv to   93.82530
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a7, quotient = 005d4372f855d824, result2 = 005d43, equiv to   93.26347
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a8, quotient = 005cb55555555555, result2 = 005cb5, equiv to   92.70833
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = a9, quotient = 005c28e63f9f0da2, result2 = 005c28, equiv to   92.15976
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = aa, quotient = 005b9e1e1e1e1e1e, result2 = 005b9e, equiv to   91.61765
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ab, quotient = 005b14f5853d614f, result2 = 005b14, equiv to   91.08187
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ac, quotient = 005a8d653594d653, result2 = 005a8d, equiv to   90.55233
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ad, quotient = 005a07661aa2c649, result2 = 005a07, equiv to   90.02890
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ae, quotient = 005982f149902f14, result2 = 005982, equiv to   89.51149
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = af, quotient = 0059000000000000, result2 = 005900, equiv to   89.00000
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b0, quotient = 00587e8ba2e8ba2e, result2 = 00587e, equiv to   88.49432
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b1, quotient = 0057fe8dbd780b92, result2 = 0057fe, equiv to   87.99435
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b2, quotient = 0057800000000000, result2 = 005780, equiv to   87.50000
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b3, quotient = 005702dc3eed6866, result2 = 005702, equiv to   87.01117
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b4, quotient = 0056871c71c71c71, result2 = 005687, equiv to   86.52778
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b5, quotient = 00560cbab235bef0, result2 = 00560c, equiv to   86.04972
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b6, quotient = 005593b13b13b13b, result2 = 005593, equiv to   85.57692
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b7, quotient = 00551bfa6784e56b, result2 = 00551b, equiv to   85.10929
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b8, quotient = 0054a590b21642c8, result2 = 0054a5, equiv to   84.64674
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = b9, quotient = 0054306eb3e45306, result2 = 005430, equiv to   84.18919
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ba, quotient = 0053bc8f23c8f23c, result2 = 0053bc, equiv to   83.73656
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = bb, quotient = 005349ecd58fbe49, result2 = 005349, equiv to   83.28877
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = bc, quotient = 0052d882b9310572, result2 = 0052d8, equiv to   82.84574
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = bd, quotient = 0052684bda12f684, result2 = 005268, equiv to   82.40741
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = be, quotient = 0051f9435e50d794, result2 = 0051f9, equiv to   81.97368
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = bf, quotient = 00518b6486080ab8, result2 = 00518b, equiv to   81.54450
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c0, quotient = 00511eaaaaaaaaaa, result2 = 00511e, equiv to   81.11979
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c1, quotient = 0050b3113e578b46, result2 = 0050b3, equiv to   80.69948
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c2, quotient = 00504893cb376c34, result2 = 005048, equiv to   80.28351
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c3, quotient = 004fdf2df2df2df2, result2 = 004fdf, equiv to   79.87179
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c4, quotient = 004f76db6db6db6d, result2 = 004f76, equiv to   79.46429
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c5, quotient = 004f0f980a655c43, result2 = 004f0f, equiv to   79.06091
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c6, quotient = 004ea95fad40a57e, result2 = 004ea9, equiv to   78.66162
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c7, quotient = 004e442e4fc24052, result2 = 004e44, equiv to   78.26633
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c8, quotient = 004de00000000000, result2 = 004de0, equiv to   77.87500
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = c9, quotient = 004d7cd0e028c197, result2 = 004d7c, equiv to   77.48756
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ca, quotient = 004d1a9d260511be, result2 = 004d1a, equiv to   77.10396
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = cb, quotient = 004cb9611a7b9611, result2 = 004cb9, equiv to   76.72414
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = cc, quotient = 004c591919191919, result2 = 004c59, equiv to   76.34804
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = cd, quotient = 004bf9c18f9c18f9, result2 = 004bf9, equiv to   75.97561
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ce, quotient = 004b9b56fd83ba68, result2 = 004b9b, equiv to   75.60680
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = cf, quotient = 004b3dd5f3a20279, result2 = 004b3d, equiv to   75.24155
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d0, quotient = 004ae13b13b13b13, result2 = 004ae1, equiv to   74.87981
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d1, quotient = 004a85830fec66e3, result2 = 004a85, equiv to   74.52153
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d2, quotient = 004a2aaaaaaaaaaa, result2 = 004a2a, equiv to   74.16667
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d3, quotient = 0049d0aeb5fd92ce, result2 = 0049d0, equiv to   73.81517
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d4, quotient = 0049778c13521cfb, result2 = 004977, equiv to   73.46698
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d5, quotient = 00491f3fb3146e92, result2 = 00491f, equiv to   73.12207
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d6, quotient = 0048c7c69456217e, result2 = 0048c7, equiv to   72.78037
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d7, quotient = 0048711dc47711dc, result2 = 004871, equiv to   72.44186
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d8, quotient = 00481b425ed097b4, result2 = 00481b, equiv to   72.10648
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = d9, quotient = 0047c6318c6318c6, result2 = 0047c6, equiv to   71.77419
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = da, quotient = 004771e88385df1e, result2 = 004771, equiv to   71.44495
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = db, quotient = 00471e64879921e6, result2 = 00471e, equiv to   71.11872
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = dc, quotient = 0046cba2e8ba2e8b, result2 = 0046cb, equiv to   70.79545
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = dd, quotient = 004679a10379a103, result2 = 004679, equiv to   70.47511
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = de, quotient = 0046285c40939a85, result2 = 004628, equiv to   70.15766
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = df, quotient = 0045d7d214a9e6be, result2 = 0045d7, equiv to   69.84305
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e0, quotient = 0045880000000000, result2 = 004588, equiv to   69.53125
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e1, quotient = 004538e38e38e38e, result2 = 004538, equiv to   69.22222
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e2, quotient = 0044ea7a5616a7a5, result2 = 0044ea, equiv to   68.91593
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e3, quotient = 00449cc1f93bc55b, result2 = 00449c, equiv to   68.61233
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e4, quotient = 00444fb823ee08fb, result2 = 00444f, equiv to   68.31140
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e5, quotient = 0044035a8cdb1bf2, result2 = 004403, equiv to   68.01310
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e6, quotient = 0043b7a6f4de9bd3, result2 = 0043b7, equiv to   67.71739
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e7, quotient = 00436c9b26c9b26c, result2 = 00436c, equiv to   67.42424
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e8, quotient = 00432234f72c234f, result2 = 004322, equiv to   67.13362
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = e9, quotient = 0042d872441ec392, result2 = 0042d8, equiv to   66.84549
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ea, quotient = 00428f50f50f50f5, result2 = 00428f, equiv to   66.55983
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = eb, quotient = 004246cefa8d9df5, result2 = 004246, equiv to   66.27660
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ec, quotient = 0041feea4e1a08ad, result2 = 0041fe, equiv to   65.99576
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ed, quotient = 0041b7a0f1f532c4, result2 = 0041b7, equiv to   65.71730
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ee, quotient = 004170f0f0f0f0f0, result2 = 004170, equiv to   65.44118
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = ef, quotient = 00412ad85e4268f8, result2 = 00412a, equiv to   65.16736
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f0, quotient = 0040e55555555555, result2 = 0040e5, equiv to   64.89583
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f1, quotient = 0040a065f9a065f9, result2 = 0040a0, equiv to   64.62656
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f2, quotient = 00405c08767ab5f3, result2 = 00405c, equiv to   64.35950
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f3, quotient = 0040183afef24df5, result2 = 004018, equiv to   64.09465
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f4, quotient = 003fd4fbcda3ac10, result2 = 003fd4, equiv to   63.83197
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f5, quotient = 003f924924924924, result2 = 003f92, equiv to   63.57143
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f6, quotient = 003f50214d0214d0, result2 = 003f50, equiv to   63.31301
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f7, quotient = 003f0e829751e0e8, result2 = 003f0e, equiv to   63.05668
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f8, quotient = 003ecd6b5ad6b5ad, result2 = 003ecd, equiv to   62.80242
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = f9, quotient = 003e8cd9f5b80839, result2 = 003e8c, equiv to   62.55020
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = fa, quotient = 003e4ccccccccccc, result2 = 003e4c, equiv to   62.30000
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = fb, quotient = 003e0d424b795eda, result2 = 003e0d, equiv to   62.05179
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = fc, quotient = 003dce38e38e38e3, result2 = 003dce, equiv to   61.80556
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = fd, quotient = 003d8faf0d277663, result2 = 003d8f, equiv to   61.56126
+# success -- match2
+# dividend = 3cd7000000000000, div_in2 = 3cd7, divisor2 = fe, quotient = 003d51a3468d1a34, result2 = 003d51, equiv to   61.31890
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 80, quotient = 0079c20000000000, result2 = 0079c2, equiv to  121.75781
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 81, quotient = 0078d05f417d05f4, result2 = 0078d0, equiv to  120.81395
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 82, quotient = 0077e27627627627, result2 = 0077e2, equiv to  119.88462
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 83, quotient = 0076f82ee6986d6f, result2 = 0076f8, equiv to  118.96947
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 84, quotient = 007611745d1745d1, result2 = 007611, equiv to  118.06818
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 85, quotient = 00752e320b8c82e3, result2 = 00752e, equiv to  117.18045
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 86, quotient = 00744e540f4898d5, result2 = 00744e, equiv to  116.30597
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 87, quotient = 007371c71c71c71c, result2 = 007371, equiv to  115.44444
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 88, quotient = 0072987878787878, result2 = 007298, equiv to  114.59559
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 89, quotient = 0071c255f4c9cf6a, result2 = 0071c2, equiv to  113.75912
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 8a, quotient = 0070ef4de9bd37a6, result2 = 0070ef, equiv to  112.93478
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 8b, quotient = 00701f4f31ba03ae, result2 = 00701f, equiv to  112.12230
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 8c, quotient = 006f524924924924, result2 = 006f52, equiv to  111.32143
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 8d, quotient = 006e882b93105726, result2 = 006e88, equiv to  110.53191
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 8e, quotient = 006dc0e6c2b4481c, result2 = 006dc0, equiv to  109.75352
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 8f, quotient = 006cfc6b699f5423, result2 = 006cfc, equiv to  108.98601
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 90, quotient = 006c3aaaaaaaaaaa, result2 = 006c3a, equiv to  108.22917
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 91, quotient = 006b7b9611a7b961, result2 = 006b7b, equiv to  107.48276
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 92, quotient = 006abf1f8fc7e3f1, result2 = 006abf, equiv to  106.74658
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 93, quotient = 006a05397829cbc1, result2 = 006a05, equiv to  106.02041
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 94, quotient = 00694dd67c8a60dd, result2 = 00694d, equiv to  105.30405
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 95, quotient = 006898e9aa180dbe, result2 = 006898, equiv to  104.59732
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 96, quotient = 0067e66666666666, result2 = 0067e6, equiv to  103.90000
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 97, quotient = 006736406c80d901, result2 = 006736, equiv to  103.21192
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 98, quotient = 0066886bca1af286, result2 = 006688, equiv to  102.53289
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 99, quotient = 0065dcdcdcdcdcdc, result2 = 0065dc, equiv to  101.86275
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 9a, quotient = 006533884fcace21, result2 = 006533, equiv to  101.20130
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 9b, quotient = 00648c6318c6318c, result2 = 00648c, equiv to  100.54839
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 9c, quotient = 0063e76276276276, result2 = 0063e7, equiv to   99.90385
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 9d, quotient = 0063447bec6ee104, result2 = 006344, equiv to   99.26752
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 9e, quotient = 0062a3a5440cf647, result2 = 0062a3, equiv to   98.63924
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = 9f, quotient = 006204d4873ecade, result2 = 006204, equiv to   98.01887
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a0, quotient = 0061680000000000, result2 = 006168, equiv to   97.40625
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a1, quotient = 0060cd1e360fe68f, result2 = 0060cd, equiv to   96.80124
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a2, quotient = 00603425ed097b42, result2 = 006034, equiv to   96.20370
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a3, quotient = 005f9d0e228d5985, result2 = 005f9d, equiv to   95.61350
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a4, quotient = 005f07ce0c7ce0c7, result2 = 005f07, equiv to   95.03049
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a5, quotient = 005e745d1745d174, result2 = 005e74, equiv to   94.45455
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a6, quotient = 005de2b2e43dafce, result2 = 005de2, equiv to   93.88554
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a7, quotient = 005d52c7480c4372, result2 = 005d52, equiv to   93.32335
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a8, quotient = 005cc49249249249, result2 = 005cc4, equiv to   92.76786
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = a9, quotient = 005c380c1e4bbd59, result2 = 005c38, equiv to   92.21893
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = aa, quotient = 005bad2d2d2d2d2d, result2 = 005bad, equiv to   91.67647
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ab, quotient = 005b23ee08fb823e, result2 = 005b23, equiv to   91.14035
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ac, quotient = 005a9c47711dc477, result2 = 005a9c, equiv to   90.61047
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ad, quotient = 005a16324fe852dd, result2 = 005a16, equiv to   90.08671
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ae, quotient = 005991a7b9611a7b, result2 = 005991, equiv to   89.56897
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = af, quotient = 00590ea0ea0ea0ea, result2 = 00590e, equiv to   89.05714
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b0, quotient = 00588d1745d1745d, result2 = 00588d, equiv to   88.55114
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b1, quotient = 00580d0456c797dd, result2 = 00580d, equiv to   88.05085
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b2, quotient = 00578e61cc398730, result2 = 00578e, equiv to   87.55618
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b3, quotient = 0057112979907269, result2 = 005711, equiv to   87.06704
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b4, quotient = 0056955555555555, result2 = 005695, equiv to   86.58333
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b5, quotient = 00561adf78389318, result2 = 00561a, equiv to   86.10497
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b6, quotient = 0055a1c21c21c21c, result2 = 0055a1, equiv to   85.63187
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b7, quotient = 005529f79b475821, result2 = 005529, equiv to   85.16393
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b8, quotient = 0054b37a6f4de9bd, result2 = 0054b3, equiv to   84.70109
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = b9, quotient = 00543e45306eb3e4, result2 = 00543e, equiv to   84.24324
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ba, quotient = 0053ca5294a5294a, result2 = 0053ca, equiv to   83.79032
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = bb, quotient = 0053579d6ee34057, result2 = 005357, equiv to   83.34225
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = bc, quotient = 0052e620ae4c415c, result2 = 0052e6, equiv to   82.89894
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = bd, quotient = 005275d75d75d75d, result2 = 005275, equiv to   82.46032
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = be, quotient = 005206bca1af286b, result2 = 005206, equiv to   82.02632
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = bf, quotient = 005198cbba4dbcfb, result2 = 005198, equiv to   81.59686
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c0, quotient = 00512c0000000000, result2 = 00512c, equiv to   81.17188
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c1, quotient = 0050c054e42523d0, result2 = 0050c0, equiv to   80.75130
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c2, quotient = 005055c5f02a3a0f, result2 = 005055, equiv to   80.33505
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c3, quotient = 004fec4ec4ec4ec4, result2 = 004fec, equiv to   79.92308
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c4, quotient = 004f83eb1a1f58d0, result2 = 004f83, equiv to   79.51531
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c5, quotient = 004f1c96bdb9d3d1, result2 = 004f1c, equiv to   79.11168
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c6, quotient = 004eb64d9364d936, result2 = 004eb6, equiv to   78.71212
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c7, quotient = 004e510b93f09014, result2 = 004e51, equiv to   78.31658
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c8, quotient = 004deccccccccccc, result2 = 004dec, equiv to   77.92500
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = c9, quotient = 004d898d5f85bb39, result2 = 004d89, equiv to   77.53731
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ca, quotient = 004d274981446f86, result2 = 004d27, equiv to   77.15347
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = cb, quotient = 004cc5fd7a533b45, result2 = 004cc5, equiv to   76.77340
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = cc, quotient = 004c65a5a5a5a5a5, result2 = 004c65, equiv to   76.39706
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = cd, quotient = 004c063e7063e706, result2 = 004c06, equiv to   76.02439
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ce, quotient = 004ba7c45979c952, result2 = 004ba7, equiv to   75.65534
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = cf, quotient = 004b4a33f128cfc4, result2 = 004b4a, equiv to   75.28986
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d0, quotient = 004aed89d89d89d8, result2 = 004aed, equiv to   74.92788
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d1, quotient = 004a91c2c187f633, result2 = 004a91, equiv to   74.56938
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d2, quotient = 004a36db6db6db6d, result2 = 004a36, equiv to   74.21429
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d3, quotient = 0049dcd0aeb5fd92, result2 = 0049dc, equiv to   73.86256
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d4, quotient = 0049839f656f1826, result2 = 004983, equiv to   73.51415
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d5, quotient = 00492b4481cd8568, result2 = 00492b, equiv to   73.16901
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d6, quotient = 0048d3bd02647c69, result2 = 0048d3, equiv to   72.82710
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d7, quotient = 00487d05f417d05f, result2 = 00487d, equiv to   72.48837
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d8, quotient = 0048271c71c71c71, result2 = 004827, equiv to   72.15278
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = d9, quotient = 0047d1fda3fb47f6, result2 = 0047d1, equiv to   71.82028
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = da, quotient = 00477da6c0964fda, result2 = 00477d, equiv to   71.49083
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = db, quotient = 00472a150a8542a1, result2 = 00472a, equiv to   71.16438
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = dc, quotient = 0046d745d1745d17, result2 = 0046d7, equiv to   70.84091
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = dd, quotient = 0046853671853671, result2 = 004685, equiv to   70.52036
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = de, quotient = 004633e45306eb3e, result2 = 004633, equiv to   70.20270
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = df, quotient = 0045e34cea30371a, result2 = 0045e3, equiv to   69.88789
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e0, quotient = 0045936db6db6db6, result2 = 004593, equiv to   69.57589
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e1, quotient = 0045444444444444, result2 = 004544, equiv to   69.26667
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e2, quotient = 0044f5ce28c75ce2, result2 = 0044f5, equiv to   68.96018
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e3, quotient = 0044a80905a38633, result2 = 0044a8, equiv to   68.65639
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e4, quotient = 00445af286bca1af, result2 = 00445a, equiv to   68.35526
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e5, quotient = 00440e88626023c5, result2 = 00440e, equiv to   68.05677
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e6, quotient = 0043c2c8590b2164, result2 = 0043c2, equiv to   67.76087
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e7, quotient = 004377b03531dec0, result2 = 004377, equiv to   67.46753
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e8, quotient = 00432d3dcb08d3dc, result2 = 00432d, equiv to   67.17672
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = e9, quotient = 0042e36ef84f1b77, result2 = 0042e3, equiv to   66.88841
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ea, quotient = 00429a41a41a41a4, result2 = 00429a, equiv to   66.60256
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = eb, quotient = 004251b3bea3677d, result2 = 004251, equiv to   66.31915
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ec, quotient = 004209c34115b1e5, result2 = 004209, equiv to   66.03814
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ed, quotient = 0041c26e2d5df984, result2 = 0041c2, equiv to   65.75949
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ee, quotient = 00417bb28dfbb28d, result2 = 00417b, equiv to   65.48319
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = ef, quotient = 0041358e75d30336, result2 = 004135, equiv to   65.20921
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f0, quotient = 0040f00000000000, result2 = 0040f0, equiv to   64.93750
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f1, quotient = 0040ab054fab054f, result2 = 0040ab, equiv to   64.66805
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f2, quotient = 0040669c8fde2615, result2 = 004066, equiv to   64.40083
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f3, quotient = 004022c3f35ba781, result2 = 004022, equiv to   64.13580
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f4, quotient = 003fdf79b4758219, result2 = 003fdf, equiv to   63.87295
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f5, quotient = 003f9cbc14e5e0a7, result2 = 003f9c, equiv to   63.61224
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f6, quotient = 003f5a895da895da, result2 = 003f5a, equiv to   63.35366
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f7, quotient = 003f18dfded5818d, result2 = 003f18, equiv to   63.09717
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f8, quotient = 003ed7bdef7bdef7, result2 = 003ed7, equiv to   62.84274
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = f9, quotient = 003e9721ed7e7534, result2 = 003e97, equiv to   62.59036
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = fa, quotient = 003e570a3d70a3d7, result2 = 003e57, equiv to   62.34000
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = fb, quotient = 003e17754a74455a, result2 = 003e17, equiv to   62.09163
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = fc, quotient = 003dd86186186186, result2 = 003dd8, equiv to   61.84524
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = fd, quotient = 003d99cd6838a9fd, result2 = 003d99, equiv to   61.60079
+# success -- match2
+# dividend = 3ce1000000000000, div_in2 = 3ce1, divisor2 = fe, quotient = 003d5bb76eddbb76, result2 = 003d5b, equiv to   61.35827
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 80, quotient = 0079d60000000000, result2 = 0079d6, equiv to  121.83594
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 81, quotient = 0078e43790de4379, result2 = 0078e4, equiv to  120.89147
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 82, quotient = 0077f62762762762, result2 = 0077f6, equiv to  119.96154
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 83, quotient = 00770bb9a61b5bd8, result2 = 00770b, equiv to  119.04580
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 84, quotient = 007624d9364d9364, result2 = 007624, equiv to  118.14394
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 85, quotient = 00754171905c6417, result2 = 007541, equiv to  117.25564
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 86, quotient = 0074616ece540f48, result2 = 007461, equiv to  116.38060
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 87, quotient = 007384bda12f684b, result2 = 007384, equiv to  115.51852
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 88, quotient = 0072ab4b4b4b4b4b, result2 = 0072ab, equiv to  114.66912
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 89, quotient = 0071d5059b184abe, result2 = 0071d5, equiv to  113.83212
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 8a, quotient = 007101dae6076b98, result2 = 007101, equiv to  113.00725
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 8b, quotient = 007031ba03aef6ca, result2 = 007031, equiv to  112.19424
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 8c, quotient = 006f649249249249, result2 = 006f64, equiv to  111.39286
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 8d, quotient = 006e9a538489fc5e, result2 = 006e9a, equiv to  110.60284
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 8e, quotient = 006dd2edf8c9ea5d, result2 = 006dd2, equiv to  109.82394
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 8f, quotient = 006d0e525982af70, result2 = 006d0e, equiv to  109.05594
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 90, quotient = 006c4c71c71c71c7, result2 = 006c4c, equiv to  108.29861
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 91, quotient = 006b8d3dcb08d3dc, result2 = 006b8d, equiv to  107.55172
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 92, quotient = 006ad0a8542a150a, result2 = 006ad0, equiv to  106.81507
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 93, quotient = 006a16a3b35fc845, result2 = 006a16, equiv to  106.08844
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 94, quotient = 00695f22983759f2, result2 = 00695f, equiv to  105.37162
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 95, quotient = 0068aa180dbeb61e, result2 = 0068aa, equiv to  104.66443
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 96, quotient = 0067f77777777777, result2 = 0067f7, equiv to  103.96667
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 97, quotient = 006747348e691cd2, result2 = 006747, equiv to  103.27815
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 98, quotient = 006699435e50d794, result2 = 006699, equiv to  102.59868
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 99, quotient = 0065ed9842ed9842, result2 = 0065ed, equiv to  101.92810
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 9a, quotient = 00654427e567109f, result2 = 006544, equiv to  101.26623
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 9b, quotient = 00649ce739ce739c, result2 = 00649c, equiv to  100.61290
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 9c, quotient = 0063f7cb7cb7cb7c, result2 = 0063f7, equiv to   99.96795
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 9d, quotient = 006354ca30eacd73, result2 = 006354, equiv to   99.33121
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 9e, quotient = 0062b3d91d2a2067, result2 = 0062b3, equiv to   98.70253
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = 9f, quotient = 006214ee4a1019c2, result2 = 006214, equiv to   98.08176
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a0, quotient = 0061780000000000, result2 = 006178, equiv to   97.46875
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a1, quotient = 0060dd04c52aee82, result2 = 0060dd, equiv to   96.86335
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a2, quotient = 006043f35ba78194, result2 = 006043, equiv to   96.26543
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a3, quotient = 005facc2bf9b7c12, result2 = 005fac, equiv to   95.67485
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a4, quotient = 005f176a2576a257, result2 = 005f17, equiv to   95.09146
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a5, quotient = 005e83e0f83e0f83, result2 = 005e83, equiv to   94.51515
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a6, quotient = 005df21ed7e75346, result2 = 005df2, equiv to   93.94578
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a7, quotient = 005d621b97c2aec1, result2 = 005d62, equiv to   93.38323
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a8, quotient = 005cd3cf3cf3cf3c, result2 = 005cd3, equiv to   92.82738
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = a9, quotient = 005c4731fcf86d10, result2 = 005c47, equiv to   92.27811
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = aa, quotient = 005bbc3c3c3c3c3c, result2 = 005bbc, equiv to   91.73529
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ab, quotient = 005b32e68cb9a32e, result2 = 005b32, equiv to   91.19883
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ac, quotient = 005aab29aca6b29a, result2 = 005aab, equiv to   90.66860
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ad, quotient = 005a24fe852ddf71, result2 = 005a24, equiv to   90.14451
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ae, quotient = 0059a05e293205e2, result2 = 0059a0, equiv to   89.62644
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = af, quotient = 00591d41d41d41d4, result2 = 00591d, equiv to   89.11429
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b0, quotient = 00589ba2e8ba2e8b, result2 = 00589b, equiv to   88.60795
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b1, quotient = 00581b7af0172428, result2 = 00581b, equiv to   88.10734
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b2, quotient = 00579cc398730e61, result2 = 00579c, equiv to   87.61236
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b3, quotient = 00571f76b4337c6c, result2 = 00571f, equiv to   87.12291
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b4, quotient = 0056a38e38e38e38, result2 = 0056a3, equiv to   86.63889
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b5, quotient = 005629043e3b673f, result2 = 005629, equiv to   86.16022
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b6, quotient = 0055afd2fd2fd2fd, result2 = 0055af, equiv to   85.68681
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b7, quotient = 005537f4cf09cad7, result2 = 005537, equiv to   85.21858
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b8, quotient = 0054c1642c8590b2, result2 = 0054c1, equiv to   84.75543
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = b9, quotient = 00544c1bacf914c1, result2 = 00544c, equiv to   84.29730
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ba, quotient = 0053d81605816058, result2 = 0053d8, equiv to   83.84409
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = bb, quotient = 0053654e0836c265, result2 = 005365, equiv to   83.39572
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = bc, quotient = 0052f3bea3677d46, result2 = 0052f3, equiv to   82.95213
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = bd, quotient = 00528362e0d8b836, result2 = 005283, equiv to   82.51323
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = be, quotient = 00521435e50d7943, result2 = 005214, equiv to   82.07895
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = bf, quotient = 0051a632ee936f3e, result2 = 0051a6, equiv to   81.64921
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c0, quotient = 0051395555555555, result2 = 005139, equiv to   81.22396
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c1, quotient = 0050cd9889f2bc5a, result2 = 0050cd, equiv to   80.80311
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c2, quotient = 005062f8151d07ea, result2 = 005062, equiv to   80.38660
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c3, quotient = 004ff96f96f96f96, result2 = 004ff9, equiv to   79.97436
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c4, quotient = 004f90fac687d634, result2 = 004f90, equiv to   79.56633
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c5, quotient = 004f2995710e4b5e, result2 = 004f29, equiv to   79.16244
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c6, quotient = 004ec33b79890ced, result2 = 004ec3, equiv to   78.76263
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c7, quotient = 004e5de8d81edfd6, result2 = 004e5d, equiv to   78.36683
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c8, quotient = 004df99999999999, result2 = 004df9, equiv to   77.97500
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = c9, quotient = 004d9649dee2b4db, result2 = 004d96, equiv to   77.58706
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ca, quotient = 004d33f5dc83cd4e, result2 = 004d33, equiv to   77.20297
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = cb, quotient = 004cd299da2ae079, result2 = 004cd2, equiv to   76.82266
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = cc, quotient = 004c723232323232, result2 = 004c72, equiv to   76.44608
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = cd, quotient = 004c12bb512bb512, result2 = 004c12, equiv to   76.07317
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ce, quotient = 004bb431b56fd83b, result2 = 004bb4, equiv to   75.70388
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = cf, quotient = 004b5691eeaf9d10, result2 = 004b56, equiv to   75.33816
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d0, quotient = 004af9d89d89d89d, result2 = 004af9, equiv to   74.97596
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d1, quotient = 004a9e0273238583, result2 = 004a9e, equiv to   74.61722
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d2, quotient = 004a430c30c30c30, result2 = 004a43, equiv to   74.26190
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d3, quotient = 0049e8f2a76e6857, result2 = 0049e8, equiv to   73.90995
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d4, quotient = 00498fb2b78c1352, result2 = 00498f, equiv to   73.56132
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d5, quotient = 0049374950869c3e, result2 = 004937, equiv to   73.21596
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d6, quotient = 0048dfb37072d753, result2 = 0048df, equiv to   72.87383
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d7, quotient = 004888ee23b88ee2, result2 = 004888, equiv to   72.53488
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d8, quotient = 004832f684bda12f, result2 = 004832, equiv to   72.19907
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = d9, quotient = 0047ddc9bb937726, result2 = 0047dd, equiv to   71.86636
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = da, quotient = 00478964fda6c096, result2 = 004789, equiv to   71.53670
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = db, quotient = 004735c58d71635c, result2 = 004735, equiv to   71.21005
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = dc, quotient = 0046e2e8ba2e8ba2, result2 = 0046e2, equiv to   70.88636
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = dd, quotient = 004690cbdf90cbdf, result2 = 004690, equiv to   70.56561
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = de, quotient = 00463f6c657a3bf6, result2 = 00463f, equiv to   70.24775
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = df, quotient = 0045eec7bfb68776, result2 = 0045ee, equiv to   69.93274
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e0, quotient = 00459edb6db6db6d, result2 = 00459e, equiv to   69.62054
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e1, quotient = 00454fa4fa4fa4fa, result2 = 00454f, equiv to   69.31111
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e2, quotient = 00450121fb78121f, result2 = 004501, equiv to   69.00442
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e3, quotient = 0044b350120b470c, result2 = 0044b3, equiv to   68.70044
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e4, quotient = 0044662ce98b3a62, result2 = 004466, equiv to   68.39912
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e5, quotient = 004419b637e52b99, result2 = 004419, equiv to   68.10044
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e6, quotient = 0043cde9bd37a6f4, result2 = 0043cd, equiv to   67.80435
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e7, quotient = 004382c5439a0b15, result2 = 004382, equiv to   67.51082
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e8, quotient = 004338469ee58469, result2 = 004338, equiv to   67.21983
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = e9, quotient = 0042ee6bac7f735d, result2 = 0042ee, equiv to   66.93133
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ea, quotient = 0042a53253253253, result2 = 0042a5, equiv to   66.64530
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = eb, quotient = 00425c9882b93105, result2 = 00425c, equiv to   66.36170
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ec, quotient = 0042149c34115b1e, result2 = 004214, equiv to   66.08051
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ed, quotient = 0041cd3b68c6c045, result2 = 0041cd, equiv to   65.80169
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ee, quotient = 004186742b06742b, result2 = 004186, equiv to   65.52521
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = ef, quotient = 004140448d639d74, result2 = 004140, equiv to   65.25105
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f0, quotient = 0040faaaaaaaaaaa, result2 = 0040fa, equiv to   64.97917
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f1, quotient = 0040b5a4a5b5a4a5, result2 = 0040b5, equiv to   64.70954
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f2, quotient = 00407130a9419637, result2 = 004071, equiv to   64.44215
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f3, quotient = 00402d4ce7c5010d, result2 = 00402d, equiv to   64.17695
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f4, quotient = 003fe9f79b475821, result2 = 003fe9, equiv to   63.91393
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f5, quotient = 003fa72f05397829, result2 = 003fa7, equiv to   63.65306
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f6, quotient = 003f64f16e4f16e4, result2 = 003f64, equiv to   63.39431
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f7, quotient = 003f233d26592233, result2 = 003f23, equiv to   63.13765
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f8, quotient = 003ee21084210842, result2 = 003ee2, equiv to   62.88306
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = f9, quotient = 003ea169e544e22f, result2 = 003ea1, equiv to   62.63052
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = fa, quotient = 003e6147ae147ae1, result2 = 003e61, equiv to   62.38000
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = fb, quotient = 003e21a8496f2bdb, result2 = 003e21, equiv to   62.13147
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = fc, quotient = 003de28a28a28a28, result2 = 003de2, equiv to   61.88492
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = fd, quotient = 003da3ebc349dd98, result2 = 003da3, equiv to   61.64032
+# success -- match2
+# dividend = 3ceb000000000000, div_in2 = 3ceb, divisor2 = fe, quotient = 003d65cb972e5cb9, result2 = 003d65, equiv to   61.39764
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 80, quotient = 0079ea0000000000, result2 = 0079ea, equiv to  121.91406
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 81, quotient = 0078f80fe03f80fe, result2 = 0078f8, equiv to  120.96899
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 82, quotient = 007809d89d89d89d, result2 = 007809, equiv to  120.03846
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 83, quotient = 00771f44659e4a42, result2 = 00771f, equiv to  119.12214
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 84, quotient = 0076383e0f83e0f8, result2 = 007638, equiv to  118.21970
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 85, quotient = 007554b1152c454b, result2 = 007554, equiv to  117.33083
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 86, quotient = 007474898d5f85bb, result2 = 007474, equiv to  116.45522
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 87, quotient = 007397b425ed097b, result2 = 007397, equiv to  115.59259
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 88, quotient = 0072be1e1e1e1e1e, result2 = 0072be, equiv to  114.74265
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 89, quotient = 0071e7b54166c612, result2 = 0071e7, equiv to  113.90511
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 8a, quotient = 00711467e2519f89, result2 = 007114, equiv to  113.07971
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 8b, quotient = 00704424d5a3e9e6, result2 = 007044, equiv to  112.26619
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 8c, quotient = 006f76db6db6db6d, result2 = 006f76, equiv to  111.46429
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 8d, quotient = 006eac7b7603a196, result2 = 006eac, equiv to  110.67376
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 8e, quotient = 006de4f52edf8c9e, result2 = 006de4, equiv to  109.89437
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 8f, quotient = 006d203949660abd, result2 = 006d20, equiv to  109.12587
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 90, quotient = 006c5e38e38e38e3, result2 = 006c5e, equiv to  108.36806
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 91, quotient = 006b9ee58469ee58, result2 = 006b9e, equiv to  107.62069
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 92, quotient = 006ae231188c4623, result2 = 006ae2, equiv to  106.88356
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 93, quotient = 006a280dee95c4ca, result2 = 006a28, equiv to  106.15646
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 94, quotient = 0069706eb3e45306, result2 = 006970, equiv to  105.43919
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 95, quotient = 0068bb4671655e7f, result2 = 0068bb, equiv to  104.73154
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 96, quotient = 0068088888888888, result2 = 006808, equiv to  104.03333
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 97, quotient = 00675828b05160a2, result2 = 006758, equiv to  103.34437
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 98, quotient = 0066aa1af286bca1, result2 = 0066aa, equiv to  102.66447
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 99, quotient = 0065fe53a8fe53a8, result2 = 0065fe, equiv to  101.99346
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 9a, quotient = 006554c77b03531d, result2 = 006554, equiv to  101.33117
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 9b, quotient = 0064ad6b5ad6b5ad, result2 = 0064ad, equiv to  100.67742
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 9c, quotient = 0064083483483483, result2 = 006408, equiv to  100.03205
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 9d, quotient = 006365187566b9e2, result2 = 006365, equiv to   99.39490
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 9e, quotient = 0062c40cf6474a88, result2 = 0062c4, equiv to   98.76582
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = 9f, quotient = 006225080ce168a7, result2 = 006225, equiv to   98.14465
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a0, quotient = 0061880000000000, result2 = 006188, equiv to   97.53125
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a1, quotient = 0060eceb5445f675, result2 = 0060ec, equiv to   96.92547
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a2, quotient = 006053c0ca4587e6, result2 = 006053, equiv to   96.32716
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a3, quotient = 005fbc775ca99ea0, result2 = 005fbc, equiv to   95.73620
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a4, quotient = 005f27063e7063e7, result2 = 005f27, equiv to   95.15244
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a5, quotient = 005e9364d9364d93, result2 = 005e93, equiv to   94.57576
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a6, quotient = 005e018acb90f6bf, result2 = 005e01, equiv to   94.00602
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a7, quotient = 005d716fe7791a0f, result2 = 005d71, equiv to   93.44311
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a8, quotient = 005ce30c30c30c30, result2 = 005ce3, equiv to   92.88690
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = a9, quotient = 005c5657dba51cc7, result2 = 005c56, equiv to   92.33728
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = aa, quotient = 005bcb4b4b4b4b4b, result2 = 005bcb, equiv to   91.79412
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ab, quotient = 005b41df1077c41d, result2 = 005b41, equiv to   91.25731
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ac, quotient = 005aba0be82fa0be, result2 = 005aba, equiv to   90.72674
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ad, quotient = 005a33caba736c05, result2 = 005a33, equiv to   90.20231
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ae, quotient = 0059af149902f149, result2 = 0059af, equiv to   89.68391
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = af, quotient = 00592be2be2be2be, result2 = 00592b, equiv to   89.17143
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b0, quotient = 0058aa2e8ba2e8ba, result2 = 0058aa, equiv to   88.66477
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b1, quotient = 005829f18966b073, result2 = 005829, equiv to   88.16384
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b2, quotient = 0057ab2564ac9592, result2 = 0057ab, equiv to   87.66854
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b3, quotient = 00572dc3eed6866f, result2 = 00572d, equiv to   87.17877
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b4, quotient = 0056b1c71c71c71c, result2 = 0056b1, equiv to   86.69444
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b5, quotient = 00563729043e3b67, result2 = 005637, equiv to   86.21547
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b6, quotient = 0055bde3de3de3de, result2 = 0055bd, equiv to   85.74176
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b7, quotient = 005545f202cc3d8d, result2 = 005545, equiv to   85.27322
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b8, quotient = 0054cf4de9bd37a6, result2 = 0054cf, equiv to   84.80978
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = b9, quotient = 005459f22983759f, result2 = 005459, equiv to   84.35135
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ba, quotient = 0053e5d9765d9765, result2 = 0053e5, equiv to   83.89785
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = bb, quotient = 005372fea18a4472, result2 = 005372, equiv to   83.44920
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = bc, quotient = 0053015c9882b931, result2 = 005301, equiv to   83.00532
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = bd, quotient = 005290ee643b990e, result2 = 005290, equiv to   82.56614
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = be, quotient = 005221af286bca1a, result2 = 005221, equiv to   82.13158
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = bf, quotient = 0051b39a22d92182, result2 = 0051b3, equiv to   81.70157
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c0, quotient = 005146aaaaaaaaaa, result2 = 005146, equiv to   81.27604
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c1, quotient = 0050dadc2fc054e4, result2 = 0050da, equiv to   80.85492
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c2, quotient = 0050702a3a0fd5c5, result2 = 005070, equiv to   80.43814
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c3, quotient = 0050069069069069, result2 = 005006, equiv to   80.02564
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c4, quotient = 004f9e0a72f05397, result2 = 004f9e, equiv to   79.61735
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c5, quotient = 004f36942462c2ec, result2 = 004f36, equiv to   79.21320
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c6, quotient = 004ed0295fad40a5, result2 = 004ed0, equiv to   78.81313
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c7, quotient = 004e6ac61c4d2f99, result2 = 004e6a, equiv to   78.41709
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c8, quotient = 004e066666666666, result2 = 004e06, equiv to   78.02500
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = c9, quotient = 004da3065e3fae7c, result2 = 004da3, equiv to   77.63682
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ca, quotient = 004d40a237c32b16, result2 = 004d40, equiv to   77.25248
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = cb, quotient = 004cdf363a0285ac, result2 = 004cdf, equiv to   76.87192
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = cc, quotient = 004c7ebebebebebe, result2 = 004c7e, equiv to   76.49510
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = cd, quotient = 004c1f3831f3831f, result2 = 004c1f, equiv to   76.12195
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ce, quotient = 004bc09f1165e725, result2 = 004bc0, equiv to   75.75243
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = cf, quotient = 004b62efec366a5b, result2 = 004b62, equiv to   75.38647
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d0, quotient = 004b062762762762, result2 = 004b06, equiv to   75.02404
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d1, quotient = 004aaa4224bf14d2, result2 = 004aaa, equiv to   74.66507
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d2, quotient = 004a4f3cf3cf3cf3, result2 = 004a4f, equiv to   74.30952
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d3, quotient = 0049f514a026d31b, result2 = 0049f5, equiv to   73.95735
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d4, quotient = 00499bc609a90e7d, result2 = 00499b, equiv to   73.60849
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d5, quotient = 0049434e1f3fb314, result2 = 004943, equiv to   73.26291
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d6, quotient = 0048eba9de81323e, result2 = 0048eb, equiv to   72.92056
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d7, quotient = 004894d653594d65, result2 = 004894, equiv to   72.58140
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d8, quotient = 00483ed097b425ed, result2 = 00483e, equiv to   72.24537
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = d9, quotient = 0047e995d32ba657, result2 = 0047e9, equiv to   71.91244
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = da, quotient = 004795233ab73152, result2 = 004795, equiv to   71.58257
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = db, quotient = 00474176105d8417, result2 = 004741, equiv to   71.25571
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = dc, quotient = 0046ee8ba2e8ba2e, result2 = 0046ee, equiv to   70.93182
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = dd, quotient = 00469c614d9c614d, result2 = 00469c, equiv to   70.61086
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = de, quotient = 00464af477ed8caf, result2 = 00464a, equiv to   70.29279
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = df, quotient = 0045fa42953cd7d2, result2 = 0045fa, equiv to   69.97758
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e0, quotient = 0045aa4924924924, result2 = 0045aa, equiv to   69.66518
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e1, quotient = 00455b05b05b05b0, result2 = 00455b, equiv to   69.35556
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e2, quotient = 00450c75ce28c75c, result2 = 00450c, equiv to   69.04867
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e3, quotient = 0044be971e7307e4, result2 = 0044be, equiv to   68.74449
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e4, quotient = 004471674c59d316, result2 = 004471, equiv to   68.44298
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e5, quotient = 004424e40d6a336c, result2 = 004424, equiv to   68.14410
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e6, quotient = 0043d90b21642c85, result2 = 0043d9, equiv to   67.84783
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e7, quotient = 00438dda52023769, result2 = 00438d, equiv to   67.55411
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e8, quotient = 0043434f72c234f7, result2 = 004343, equiv to   67.26293
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = e9, quotient = 0042f96860afcb43, result2 = 0042f9, equiv to   66.97425
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ea, quotient = 0042b02302302302, result2 = 0042b0, equiv to   66.68803
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = eb, quotient = 0042677d46cefa8d, result2 = 004267, equiv to   66.40426
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ec, quotient = 00421f75270d0456, result2 = 00421f, equiv to   66.12288
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ed, quotient = 0041d808a42f8705, result2 = 0041d8, equiv to   65.84388
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ee, quotient = 00419135c81135c8, result2 = 004191, equiv to   65.56723
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = ef, quotient = 00414afaa4f437b2, result2 = 00414a, equiv to   65.29289
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f0, quotient = 0041055555555555, result2 = 004105, equiv to   65.02083
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f1, quotient = 0040c043fbc043fb, result2 = 0040c0, equiv to   64.75104
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f2, quotient = 00407bc4c2a50658, result2 = 00407b, equiv to   64.48347
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f3, quotient = 004037d5dc2e5a99, result2 = 004037, equiv to   64.21811
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f4, quotient = 003ff47582192e29, result2 = 003ff4, equiv to   63.95492
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f5, quotient = 003fb1a1f58d0fac, result2 = 003fb1, equiv to   63.69388
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f6, quotient = 003f6f597ef597ef, result2 = 003f6f, equiv to   63.43496
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f7, quotient = 003f2d9a6ddcc2d9, result2 = 003f2d, equiv to   63.17814
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f8, quotient = 003eec6318c6318c, result2 = 003eec, equiv to   62.92339
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = f9, quotient = 003eabb1dd0b4f2a, result2 = 003eab, equiv to   62.67068
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = fa, quotient = 003e6b851eb851eb, result2 = 003e6b, equiv to   62.42000
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = fb, quotient = 003e2bdb486a125b, result2 = 003e2b, equiv to   62.17131
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = fc, quotient = 003decb2cb2cb2cb, result2 = 003dec, equiv to   61.92460
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = fd, quotient = 003dae0a1e5b1133, result2 = 003dae, equiv to   61.67984
+# success -- match2
+# dividend = 3cf5000000000000, div_in2 = 3cf5, divisor2 = fe, quotient = 003d6fdfbf7efdfb, result2 = 003d6f, equiv to   61.43701
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 80, quotient = 0079fe0000000000, result2 = 0079fe, equiv to  121.99219
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 81, quotient = 00790be82fa0be82, result2 = 00790b, equiv to  121.04651
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 82, quotient = 00781d89d89d89d8, result2 = 00781d, equiv to  120.11538
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 83, quotient = 007732cf252138ab, result2 = 007732, equiv to  119.19847
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 84, quotient = 00764ba2e8ba2e8b, result2 = 00764b, equiv to  118.29545
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 85, quotient = 007567f099fc267f, result2 = 007567, equiv to  117.40602
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 86, quotient = 007487a44c6afc2d, result2 = 007487, equiv to  116.52985
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 87, quotient = 0073aaaaaaaaaaaa, result2 = 0073aa, equiv to  115.66667
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 88, quotient = 0072d0f0f0f0f0f0, result2 = 0072d0, equiv to  114.81618
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 89, quotient = 0071fa64e7b54166, result2 = 0071fa, equiv to  113.97810
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 8a, quotient = 007126f4de9bd37a, result2 = 007126, equiv to  113.15217
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 8b, quotient = 0070568fa798dd01, result2 = 007056, equiv to  112.33813
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 8c, quotient = 006f892492492492, result2 = 006f89, equiv to  111.53571
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 8d, quotient = 006ebea3677d46ce, result2 = 006ebe, equiv to  110.74468
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 8e, quotient = 006df6fc64f52edf, result2 = 006df6, equiv to  109.96479
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 8f, quotient = 006d32203949660a, result2 = 006d32, equiv to  109.19580
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 90, quotient = 006c700000000000, result2 = 006c70, equiv to  108.43750
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 91, quotient = 006bb08d3dcb08d3, result2 = 006bb0, equiv to  107.68966
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 92, quotient = 006af3b9dcee773b, result2 = 006af3, equiv to  106.95205
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 93, quotient = 006a397829cbc14e, result2 = 006a39, equiv to  106.22449
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 94, quotient = 006981bacf914c1b, result2 = 006981, equiv to  105.50676
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 95, quotient = 0068cc74d50c06df, result2 = 0068cc, equiv to  104.79866
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 96, quotient = 0068199999999999, result2 = 006819, equiv to  104.10000
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 97, quotient = 0067691cd239a473, result2 = 006769, equiv to  103.41060
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 98, quotient = 0066baf286bca1af, result2 = 0066ba, equiv to  102.73026
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 99, quotient = 00660f0f0f0f0f0f, result2 = 00660f, equiv to  102.05882
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 9a, quotient = 00656567109f959c, result2 = 006565, equiv to  101.39610
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 9b, quotient = 0064bdef7bdef7bd, result2 = 0064bd, equiv to  100.74194
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 9c, quotient = 0064189d89d89d89, result2 = 006418, equiv to  100.09615
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 9d, quotient = 00637566b9e2a651, result2 = 006375, equiv to   99.45860
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 9e, quotient = 0062d440cf6474a8, result2 = 0062d4, equiv to   98.82911
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = 9f, quotient = 00623521cfb2b78c, result2 = 006235, equiv to   98.20755
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a0, quotient = 0061980000000000, result2 = 006198, equiv to   97.59375
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a1, quotient = 0060fcd1e360fe68, result2 = 0060fc, equiv to   96.98758
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a2, quotient = 0060638e38e38e38, result2 = 006063, equiv to   96.38889
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a3, quotient = 005fcc2bf9b7c12d, result2 = 005fcc, equiv to   95.79755
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a4, quotient = 005f36a2576a2576, result2 = 005f36, equiv to   95.21341
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a5, quotient = 005ea2e8ba2e8ba2, result2 = 005ea2, equiv to   94.63636
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a6, quotient = 005e10f6bf3a9a37, result2 = 005e10, equiv to   94.06627
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a7, quotient = 005d80c4372f855d, result2 = 005d80, equiv to   93.50299
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a8, quotient = 005cf24924924924, result2 = 005cf2, equiv to   92.94643
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = a9, quotient = 005c657dba51cc7f, result2 = 005c65, equiv to   92.39645
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = aa, quotient = 005bda5a5a5a5a5a, result2 = 005bda, equiv to   91.85294
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ab, quotient = 005b50d79435e50d, result2 = 005b50, equiv to   91.31579
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ac, quotient = 005ac8ee23b88ee2, result2 = 005ac8, equiv to   90.78488
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ad, quotient = 005a4296efb8f899, result2 = 005a42, equiv to   90.26012
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ae, quotient = 0059bdcb08d3dcb0, result2 = 0059bd, equiv to   89.74138
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = af, quotient = 00593a83a83a83a8, result2 = 00593a, equiv to   89.22857
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b0, quotient = 0058b8ba2e8ba2e8, result2 = 0058b8, equiv to   88.72159
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b1, quotient = 0058386822b63cbe, result2 = 005838, equiv to   88.22034
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b2, quotient = 0057b98730e61cc3, result2 = 0057b9, equiv to   87.72472
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b3, quotient = 00573c1129799072, result2 = 00573c, equiv to   87.23464
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b4, quotient = 0056c00000000000, result2 = 0056c0, equiv to   86.75000
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b5, quotient = 0056454dca410f8e, result2 = 005645, equiv to   86.27072
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b6, quotient = 0055cbf4bf4bf4bf, result2 = 0055cb, equiv to   85.79670
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b7, quotient = 005553ef368eb043, result2 = 005553, equiv to   85.32787
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b8, quotient = 0054dd37a6f4de9b, result2 = 0054dd, equiv to   84.86413
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = b9, quotient = 005467c8a60dd67c, result2 = 005467, equiv to   84.40541
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ba, quotient = 0053f39ce739ce73, result2 = 0053f3, equiv to   83.95161
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = bb, quotient = 005380af3addc680, result2 = 005380, equiv to   83.50267
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = bc, quotient = 00530efa8d9df51b, result2 = 00530e, equiv to   83.05851
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = bd, quotient = 00529e79e79e79e7, result2 = 00529e, equiv to   82.61905
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = be, quotient = 00522f286bca1af2, result2 = 00522f, equiv to   82.18421
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = bf, quotient = 0051c101571ed3c5, result2 = 0051c1, equiv to   81.75393
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c0, quotient = 0051540000000000, result2 = 005154, equiv to   81.32813
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c1, quotient = 0050e81fd58ded6e, result2 = 0050e8, equiv to   80.90674
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c2, quotient = 00507d5c5f02a3a0, result2 = 00507d, equiv to   80.48969
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c3, quotient = 005013b13b13b13b, result2 = 005013, equiv to   80.07692
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c4, quotient = 004fab1a1f58d0fa, result2 = 004fab, equiv to   79.66837
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c5, quotient = 004f4392d7b73a7a, result2 = 004f43, equiv to   79.26396
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c6, quotient = 004edd1745d1745d, result2 = 004edd, equiv to   78.86364
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c7, quotient = 004e77a3607b7f5b, result2 = 004e77, equiv to   78.46734
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c8, quotient = 004e133333333333, result2 = 004e13, equiv to   78.07500
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = c9, quotient = 004dafc2dd9ca81e, result2 = 004daf, equiv to   77.68657
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ca, quotient = 004d4d4e930288df, result2 = 004d4d, equiv to   77.30198
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = cb, quotient = 004cebd299da2ae0, result2 = 004ceb, equiv to   76.92118
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = cc, quotient = 004c8b4b4b4b4b4b, result2 = 004c8b, equiv to   76.54412
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = cd, quotient = 004c2bb512bb512b, result2 = 004c2b, equiv to   76.17073
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ce, quotient = 004bcd0c6d5bf60e, result2 = 004bcd, equiv to   75.80097
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = cf, quotient = 004b6f4de9bd37a6, result2 = 004b6f, equiv to   75.43478
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d0, quotient = 004b127627627627, result2 = 004b12, equiv to   75.07212
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d1, quotient = 004ab681d65aa422, result2 = 004ab6, equiv to   74.71292
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d2, quotient = 004a5b6db6db6db6, result2 = 004a5b, equiv to   74.35714
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d3, quotient = 004a013698df3de0, result2 = 004a01, equiv to   74.00474
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d4, quotient = 0049a7d95bc609a9, result2 = 0049a7, equiv to   73.65566
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d5, quotient = 00494f52edf8c9ea, result2 = 00494f, equiv to   73.30986
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d6, quotient = 0048f7a04c8f8d28, result2 = 0048f7, equiv to   72.96729
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d7, quotient = 0048a0be82fa0be8, result2 = 0048a0, equiv to   72.62791
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d8, quotient = 00484aaaaaaaaaaa, result2 = 00484a, equiv to   72.29167
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = d9, quotient = 0047f561eac3d587, result2 = 0047f5, equiv to   71.95853
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = da, quotient = 0047a0e177c7a20e, result2 = 0047a0, equiv to   71.62844
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = db, quotient = 00474d269349a4d2, result2 = 00474d, equiv to   71.30137
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = dc, quotient = 0046fa2e8ba2e8ba, result2 = 0046fa, equiv to   70.97727
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = dd, quotient = 0046a7f6bba7f6bb, result2 = 0046a7, equiv to   70.65611
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = de, quotient = 0046567c8a60dd67, result2 = 004656, equiv to   70.33784
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = df, quotient = 004605bd6ac3282d, result2 = 004605, equiv to   70.02242
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e0, quotient = 0045b5b6db6db6db, result2 = 0045b5, equiv to   69.70982
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e1, quotient = 0045666666666666, result2 = 004566, equiv to   69.40000
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e2, quotient = 004517c9a0d97c9a, result2 = 004517, equiv to   69.09292
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e3, quotient = 0044c9de2adac8bd, result2 = 0044c9, equiv to   68.78855
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e4, quotient = 00447ca1af286bca, result2 = 00447c, equiv to   68.48684
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e5, quotient = 00443011e2ef3b3f, result2 = 004430, equiv to   68.18777
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e6, quotient = 0043e42c8590b216, result2 = 0043e4, equiv to   67.89130
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e7, quotient = 004398ef606a63bd, result2 = 004398, equiv to   67.59740
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e8, quotient = 00434e58469ee584, result2 = 00434e, equiv to   67.30603
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = e9, quotient = 0043046514e02328, result2 = 004304, equiv to   67.01717
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ea, quotient = 0042bb13b13b13b1, result2 = 0042bb, equiv to   66.73077
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = eb, quotient = 004272620ae4c415, result2 = 004272, equiv to   66.44681
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ec, quotient = 00422a4e1a08ad8f, result2 = 00422a, equiv to   66.16525
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ed, quotient = 0041e2d5df984dc5, result2 = 0041e2, equiv to   65.88608
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ee, quotient = 00419bf7651bf765, result2 = 00419b, equiv to   65.60924
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = ef, quotient = 004155b0bc84d1f1, result2 = 004155, equiv to   65.33473
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f0, quotient = 0041100000000000, result2 = 004110, equiv to   65.06250
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f1, quotient = 0040cae351cae351, result2 = 0040ca, equiv to   64.79253
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f2, quotient = 00408658dc08767a, result2 = 004086, equiv to   64.52479
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f3, quotient = 0040425ed097b425, result2 = 004042, equiv to   64.25926
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f4, quotient = 003ffef368eb0432, result2 = 003ffe, equiv to   63.99590
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f5, quotient = 003fbc14e5e0a72f, result2 = 003fbc, equiv to   63.73469
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f6, quotient = 003f79c18f9c18f9, result2 = 003f79, equiv to   63.47561
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f7, quotient = 003f37f7b560637f, result2 = 003f37, equiv to   63.21862
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f8, quotient = 003ef6b5ad6b5ad6, result2 = 003ef6, equiv to   62.96371
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = f9, quotient = 003eb5f9d4d1bc25, result2 = 003eb5, equiv to   62.71084
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = fa, quotient = 003e75c28f5c28f5, result2 = 003e75, equiv to   62.46000
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = fb, quotient = 003e360e4764f8dc, result2 = 003e36, equiv to   62.21116
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = fc, quotient = 003df6db6db6db6d, result2 = 003df6, equiv to   61.96429
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = fd, quotient = 003db828796c44ce, result2 = 003db8, equiv to   61.71937
+# success -- match2
+# dividend = 3cff000000000000, div_in2 = 3cff, divisor2 = fe, quotient = 003d79f3e7cf9f3e, result2 = 003d79, equiv to   61.47638
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 80, quotient = 007a120000000000, result2 = 007a12, equiv to  122.07031
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 81, quotient = 00791fc07f01fc07, result2 = 00791f, equiv to  121.12403
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 82, quotient = 0078313b13b13b13, result2 = 007831, equiv to  120.19231
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 83, quotient = 00774659e4a42715, result2 = 007746, equiv to  119.27481
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 84, quotient = 00765f07c1f07c1f, result2 = 00765f, equiv to  118.37121
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 85, quotient = 00757b301ecc07b3, result2 = 00757b, equiv to  117.48120
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 86, quotient = 00749abf0b7672a0, result2 = 00749a, equiv to  116.60448
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 87, quotient = 0073bda12f684bda, result2 = 0073bd, equiv to  115.74074
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 88, quotient = 0072e3c3c3c3c3c3, result2 = 0072e3, equiv to  114.88971
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 89, quotient = 00720d148e03bcba, result2 = 00720d, equiv to  114.05109
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 8a, quotient = 00713981dae6076b, result2 = 007139, equiv to  113.22464
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 8b, quotient = 007068fa798dd01d, result2 = 007068, equiv to  112.41007
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 8c, quotient = 006f9b6db6db6db6, result2 = 006f9b, equiv to  111.60714
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 8d, quotient = 006ed0cb58f6ec07, result2 = 006ed0, equiv to  110.81560
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 8e, quotient = 006e09039b0ad120, result2 = 006e09, equiv to  110.03521
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 8f, quotient = 006d4407292cc157, result2 = 006d44, equiv to  109.26573
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 90, quotient = 006c81c71c71c71c, result2 = 006c81, equiv to  108.50694
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 91, quotient = 006bc234f72c234f, result2 = 006bc2, equiv to  107.75862
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 92, quotient = 006b0542a150a854, result2 = 006b05, equiv to  107.02055
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 93, quotient = 006a4ae26501bdd2, result2 = 006a4a, equiv to  106.29252
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 94, quotient = 00699306eb3e4530, result2 = 006993, equiv to  105.57432
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 95, quotient = 0068dda338b2af3f, result2 = 0068dd, equiv to  104.86577
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 96, quotient = 00682aaaaaaaaaaa, result2 = 00682a, equiv to  104.16667
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 97, quotient = 00677a10f421e843, result2 = 00677a, equiv to  103.47682
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 98, quotient = 0066cbca1af286bc, result2 = 0066cb, equiv to  102.79605
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 99, quotient = 00661fca751fca75, result2 = 00661f, equiv to  102.12418
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 9a, quotient = 00657606a63bd81a, result2 = 006576, equiv to  101.46104
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 9b, quotient = 0064ce739ce739ce, result2 = 0064ce, equiv to  100.80645
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 9c, quotient = 0064290690690690, result2 = 006429, equiv to  100.16026
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 9d, quotient = 006385b4fe5e92c0, result2 = 006385, equiv to   99.52229
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 9e, quotient = 0062e474a8819ec8, result2 = 0062e4, equiv to   98.89241
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = 9f, quotient = 0062453b92840670, result2 = 006245, equiv to   98.27044
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a0, quotient = 0061a80000000000, result2 = 0061a8, equiv to   97.65625
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a1, quotient = 00610cb8727c065c, result2 = 00610c, equiv to   97.04969
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a2, quotient = 0060735ba781948b, result2 = 006073, equiv to   96.45062
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a3, quotient = 005fdbe096c5e3ba, result2 = 005fdb, equiv to   95.85890
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a4, quotient = 005f463e7063e706, result2 = 005f46, equiv to   95.27439
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a5, quotient = 005eb26c9b26c9b2, result2 = 005eb2, equiv to   94.69697
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a6, quotient = 005e2062b2e43daf, result2 = 005e20, equiv to   94.12651
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a7, quotient = 005d901886e5f0ab, result2 = 005d90, equiv to   93.56287
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a8, quotient = 005d018618618618, result2 = 005d01, equiv to   93.00595
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = a9, quotient = 005c74a398fe7c36, result2 = 005c74, equiv to   92.45562
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = aa, quotient = 005be96969696969, result2 = 005be9, equiv to   91.91176
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = ab, quotient = 005b5fd017f405fd, result2 = 005b5f, equiv to   91.37427
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = ac, quotient = 005ad7d05f417d05, result2 = 005ad7, equiv to   90.84302
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = ad, quotient = 005a516324fe852d, result2 = 005a51, equiv to   90.31792
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = ae, quotient = 0059cc8178a4c817, result2 = 0059cc, equiv to   89.79885
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = af, quotient = 0059492492492492, result2 = 005949, equiv to   89.28571
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b0, quotient = 0058c745d1745d17, result2 = 0058c7, equiv to   88.77841
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b1, quotient = 005846debc05c90a, result2 = 005846, equiv to   88.27684
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b2, quotient = 0057c7e8fd1fa3f4, result2 = 0057c7, equiv to   87.78090
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b3, quotient = 00574a5e641c9a75, result2 = 00574a, equiv to   87.29050
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b4, quotient = 0056ce38e38e38e3, result2 = 0056ce, equiv to   86.80556
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b5, quotient = 005653729043e3b6, result2 = 005653, equiv to   86.32597
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b6, quotient = 0055da05a05a05a0, result2 = 0055da, equiv to   85.85165
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b7, quotient = 005561ec6a5122f9, result2 = 005561, equiv to   85.38251
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b8, quotient = 0054eb21642c8590, result2 = 0054eb, equiv to   84.91848
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = b9, quotient = 0054759f22983759, result2 = 005475, equiv to   84.45946
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = ba, quotient = 0054016058160581, result2 = 005401, equiv to   84.00538
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = bb, quotient = 00538e5fd431488e, result2 = 00538e, equiv to   83.55615
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = bc, quotient = 00531c9882b93105, result2 = 00531c, equiv to   83.11170
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = bd, quotient = 0052ac056b015ac0, result2 = 0052ac, equiv to   82.67196
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = be, quotient = 00523ca1af286bca, result2 = 00523c, equiv to   82.23684
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = bf, quotient = 0051ce688b648608, result2 = 0051ce, equiv to   81.80628
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c0, quotient = 0051615555555555, result2 = 005161, equiv to   81.38021
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c1, quotient = 0050f5637b5b85f8, result2 = 0050f5, equiv to   80.95855
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c2, quotient = 00508a8e83f5717c, result2 = 00508a, equiv to   80.54124
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c3, quotient = 005020d20d20d20d, result2 = 005020, equiv to   80.12821
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c4, quotient = 004fb829cbc14e5e, result2 = 004fb8, equiv to   79.71939
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c5, quotient = 004f50918b0bb207, result2 = 004f50, equiv to   79.31472
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c6, quotient = 004eea052bf5a814, result2 = 004eea, equiv to   78.91414
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c7, quotient = 004e8480a4a9cf1d, result2 = 004e84, equiv to   78.51759
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c8, quotient = 004e200000000000, result2 = 004e20, equiv to   78.12500
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = c9, quotient = 004dbc7f5cf9a1c0, result2 = 004dbc, equiv to   77.73632
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = ca, quotient = 004d59faee41e6a7, result2 = 004d59, equiv to   77.35149
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = cb, quotient = 004cf86ef9b1d014, result2 = 004cf8, equiv to   76.97044
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = cc, quotient = 004c97d7d7d7d7d7, result2 = 004c97, equiv to   76.59314
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = cd, quotient = 004c3831f3831f38, result2 = 004c38, equiv to   76.21951
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = ce, quotient = 004bd979c95204f8, result2 = 004bd9, equiv to   75.84951
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = cf, quotient = 004b7babe74404f2, result2 = 004b7b, equiv to   75.48309
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d0, quotient = 004b1ec4ec4ec4ec, result2 = 004b1e, equiv to   75.12019
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d1, quotient = 004ac2c187f63371, result2 = 004ac2, equiv to   74.76077
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d2, quotient = 004a679e79e79e79, result2 = 004a67, equiv to   74.40476
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d3, quotient = 004a0d589197a8a5, result2 = 004a0d, equiv to   74.05213
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d4, quotient = 0049b3ecade304d4, result2 = 0049b3, equiv to   73.70283
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d5, quotient = 00495b57bcb1e0c0, result2 = 00495b, equiv to   73.35681
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d6, quotient = 00490396ba9de813, result2 = 004903, equiv to   73.01402
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d7, quotient = 0048aca6b29aca6b, result2 = 0048ac, equiv to   72.67442
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d8, quotient = 00485684bda12f68, result2 = 004856, equiv to   72.33796
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = d9, quotient = 0048012e025c04b8, result2 = 004801, equiv to   72.00461
+# success -- match2
+# dividend = 3d09000000000000, div_in2 = 3d09, divisor2 = da, quotient = 0047ac9fb4d812c9, result2 = 0047ac, equiv to   71.67431
+# success -- match2
+# End time: 18:12:03 on Dec 06,2020, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 1

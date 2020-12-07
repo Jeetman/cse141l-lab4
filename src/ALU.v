@@ -21,12 +21,12 @@ module ALU(InputA,InputB,OP,Out,Over);
 		Out = 0;
 		case (OP)
 		4'b0000: {Over, Out} = {1'b0,InputA} + {1'b0,InputB}; // ADD
-		4'b0001: {Over, Out} = {1'b0,InputA} << InputB;				            // Shift left
-		4'b0010: {Out, Over} = {InputA,1'b0} >> InputB;                      // Shift right
+		4'b0001: {Over, Out} = {1'b0,InputA} << InputB;       // Shift left
+		4'b0010: {Out, Over} = {InputA,1'b0} >> InputB;       // Shift right
 		4'b0011: Out = InputA & InputB; // AND
 		4'b0100: Out = InputA | InputB; // OR
 		4'b0101: Out = InputA ^ InputB; // XOR
-		4'b0110: Out = InputA < InputB;// SLT
+		4'b0110: Out = InputA < InputB; // SLT
 		4'b0111: Out = InputB;          // MOV
 		default: Out = InputA + InputB;
 	  endcase
