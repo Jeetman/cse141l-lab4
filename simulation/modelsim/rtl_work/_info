@@ -1,0 +1,209 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Aabjeet/cse141l-lab4/simulation/modelsim
+vALU
+Z1 !s110 1607545539
+!i10b 1
+!s100 _i`9RMLg7Q<TYdYRJIXc_0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdEH70TJ;7mLh494e:b]QS1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1607545019
+8C:/Users/Aabjeet/cse141l-lab4/src/ALU.v
+FC:/Users/Aabjeet/cse141l-lab4/src/ALU.v
+!i122 5
+L0 11 26
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1607545539.000000
+!s107 C:/Users/Aabjeet/cse141l-lab4/src/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aabjeet/cse141l-lab4/src|C:/Users/Aabjeet/cse141l-lab4/src/ALU.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Aabjeet/cse141l-lab4/src
+Z9 tCvgOpt 0
+n@a@l@u
+vCPU
+R1
+!i10b 1
+!s100 :G3FnT]o;kPb]EL:O>6:l3
+R2
+IYaXjQL=`hInhFfbL5W1f]0
+R3
+R0
+R4
+8C:/Users/Aabjeet/cse141l-lab4/src/CPU.v
+FC:/Users/Aabjeet/cse141l-lab4/src/CPU.v
+!i122 4
+L0 15 137
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Aabjeet/cse141l-lab4/src/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aabjeet/cse141l-lab4/src|C:/Users/Aabjeet/cse141l-lab4/src/CPU.v|
+!i113 1
+R7
+R8
+R9
+n@c@p@u
+vCtrl
+R1
+!i10b 1
+!s100 zaVaVZUTLQInCzPNdPI^;1
+R2
+IDNW>EnnC3bW8@AR:@QLAe3
+R3
+R0
+R4
+8C:/Users/Aabjeet/cse141l-lab4/src/Ctrl.v
+FC:/Users/Aabjeet/cse141l-lab4/src/Ctrl.v
+!i122 3
+L0 13 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Aabjeet/cse141l-lab4/src/Ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aabjeet/cse141l-lab4/src|C:/Users/Aabjeet/cse141l-lab4/src/Ctrl.v|
+!i113 1
+R7
+R8
+R9
+n@ctrl
+vDataMem
+Z10 !s110 1607545538
+!i10b 1
+!s100 fRnD3FQ9Y4JgNE;El4k??1
+R2
+IV2aoQ]b[dnC4T5I60aDmN1
+R3
+R0
+R4
+8C:/Users/Aabjeet/cse141l-lab4/src/DataMem.v
+FC:/Users/Aabjeet/cse141l-lab4/src/DataMem.v
+!i122 2
+L0 13 37
+R5
+r1
+!s85 0
+31
+Z11 !s108 1607545538.000000
+!s107 C:/Users/Aabjeet/cse141l-lab4/src/DataMem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aabjeet/cse141l-lab4/src|C:/Users/Aabjeet/cse141l-lab4/src/DataMem.v|
+!i113 1
+R7
+R8
+R9
+n@data@mem
+vInstFetch
+R10
+!i10b 1
+!s100 dlX?T9Q>4WO5=l`KoNKg62
+R2
+Idg65[dgjbfa:5ocS2Qa9H0
+R3
+R0
+R4
+8C:/Users/Aabjeet/cse141l-lab4/src/InstFetch.v
+FC:/Users/Aabjeet/cse141l-lab4/src/InstFetch.v
+!i122 1
+L0 12 30
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Aabjeet/cse141l-lab4/src/InstFetch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aabjeet/cse141l-lab4/src|C:/Users/Aabjeet/cse141l-lab4/src/InstFetch.v|
+!i113 1
+R7
+R8
+R9
+n@inst@fetch
+vInstROM
+R1
+!i10b 1
+!s100 b6JLO_FWCJN>Yi:iWjN<S1
+R2
+IdV1^P[6JNOkA3ZaPUT`bY0
+R3
+R0
+w1607545333
+8C:/Users/Aabjeet/cse141l-lab4/src/InstROM.v
+FC:/Users/Aabjeet/cse141l-lab4/src/InstROM.v
+!i122 6
+L0 17 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Aabjeet/cse141l-lab4/src/InstROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aabjeet/cse141l-lab4/src|C:/Users/Aabjeet/cse141l-lab4/src/InstROM.v|
+!i113 1
+R7
+R8
+R9
+n@inst@r@o@m
+vRegFile
+R10
+!i10b 1
+!s100 ca8OM]DY3BW?A<;lLWM6H3
+R2
+ID27LbR6k]iFX:cha<dUk<0
+R3
+R0
+R4
+8C:/Users/Aabjeet/cse141l-lab4/src/RegFile.v
+FC:/Users/Aabjeet/cse141l-lab4/src/RegFile.v
+!i122 0
+L0 14 63
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Aabjeet/cse141l-lab4/src/RegFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aabjeet/cse141l-lab4/src|C:/Users/Aabjeet/cse141l-lab4/src/RegFile.v|
+!i113 1
+R7
+R8
+R9
+n@reg@file
+vtest_bench_all
+!s110 1607545575
+!i10b 1
+!s100 jf4EN?9XH[9:iCPTBEhEB1
+R2
+IiRZN;QPZ6k=n3JBj=GZMn0
+R3
+R0
+R4
+8C:/Users/Aabjeet/cse141l-lab4/src/test_bench_all.v
+FC:/Users/Aabjeet/cse141l-lab4/src/test_bench_all.v
+!i122 7
+L0 13 160
+R5
+r1
+!s85 0
+31
+!s108 1607545575.000000
+!s107 C:/Users/Aabjeet/cse141l-lab4/src/test_bench_all.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Aabjeet/cse141l-lab4/src/test_bench_all.v|
+!i113 1
+o-work work
+R9

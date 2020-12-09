@@ -1,0 +1,116 @@
+# Reading pref.tcl
+# do lab2_poc_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Aabjeet/cse141l-lab4/src {C:/Users/Aabjeet/cse141l-lab4/src/RegFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:38 on Dec 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aabjeet/cse141l-lab4/src" C:/Users/Aabjeet/cse141l-lab4/src/RegFile.v 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 12:25:38 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Aabjeet/cse141l-lab4/src {C:/Users/Aabjeet/cse141l-lab4/src/InstFetch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:38 on Dec 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aabjeet/cse141l-lab4/src" C:/Users/Aabjeet/cse141l-lab4/src/InstFetch.v 
+# -- Compiling module InstFetch
+# 
+# Top level modules:
+# 	InstFetch
+# End time: 12:25:38 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Aabjeet/cse141l-lab4/src {C:/Users/Aabjeet/cse141l-lab4/src/DataMem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:38 on Dec 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aabjeet/cse141l-lab4/src" C:/Users/Aabjeet/cse141l-lab4/src/DataMem.v 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 12:25:38 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Aabjeet/cse141l-lab4/src {C:/Users/Aabjeet/cse141l-lab4/src/Ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:39 on Dec 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aabjeet/cse141l-lab4/src" C:/Users/Aabjeet/cse141l-lab4/src/Ctrl.v 
+# -- Compiling module Ctrl
+# 
+# Top level modules:
+# 	Ctrl
+# End time: 12:25:39 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Aabjeet/cse141l-lab4/src {C:/Users/Aabjeet/cse141l-lab4/src/CPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:39 on Dec 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aabjeet/cse141l-lab4/src" C:/Users/Aabjeet/cse141l-lab4/src/CPU.v 
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# End time: 12:25:39 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Aabjeet/cse141l-lab4/src {C:/Users/Aabjeet/cse141l-lab4/src/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:39 on Dec 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aabjeet/cse141l-lab4/src" C:/Users/Aabjeet/cse141l-lab4/src/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:25:39 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Aabjeet/cse141l-lab4/src {C:/Users/Aabjeet/cse141l-lab4/src/InstROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:39 on Dec 09,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Aabjeet/cse141l-lab4/src" C:/Users/Aabjeet/cse141l-lab4/src/InstROM.v 
+# -- Compiling module InstROM
+# 
+# Top level modules:
+# 	InstROM
+# End time: 12:25:39 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/Aabjeet/cse141l-lab4/src/test_bench_all.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:26:15 on Dec 09,2020
+# vlog -reportprogress 300 -work work C:/Users/Aabjeet/cse141l-lab4/src/test_bench_all.v 
+# -- Compiling module test_bench_all
+# 
+# Top level modules:
+# 	test_bench_all
+# End time: 12:26:15 on Dec 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test_bench_all
+# vsim work.test_bench_all 
+# Start time: 12:26:18 on Dec 09,2020
+# Loading work.test_bench_all
+# Loading work.CPU
+# Loading work.InstFetch
+# Loading work.InstROM
+# Loading work.Ctrl
+# Loading work.RegFile
+# Loading work.ALU
+# Loading work.DataMem
+run -all
+# divisor = 0004 , quotient = 2000000000000000 , result1 = 2000, equiv to    0.25000
+# success -- match1
+# dividend = 0003000000000000, divisor2 = ff, quotient = 0000030303030303, result2 = 000003, equiv to    0.01176
+# success -- match2
+# operand(hex) = 0051, sqrt(hex) = 09
+# success -- match3
+# ** Note: $stop    : C:/Users/Aabjeet/cse141l-lab4/src/test_bench_all.v(127)
+#    Time: 23195 ps  Iteration: 0  Instance: /test_bench_all
+# Break in Module test_bench_all at C:/Users/Aabjeet/cse141l-lab4/src/test_bench_all.v line 127
+# End time: 12:27:35 on Dec 09,2020, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0
