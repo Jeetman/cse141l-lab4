@@ -7,7 +7,7 @@ architecture](https://docs.google.com/document/d/132XERID4oe9Ok5qbLtYRtNQLa4-Oti
 as well as the machine code for the three programs required for lab4.
 ## InstrROM is configured to read machine_code.txt file found in simulation/modelsim.
 ## To create machine code run: 
-python src/assembler/assembler.py src/assembler/programs/program(1,2,3,orAll).txt simulation/modelsim/machine_code.txt
+python src/assembler/assembler.py src/assembler/programs/(file_name).txt simulation/modelsim/machine_code.txt
 
 The demo for this lab4 can be found
 [here]().
